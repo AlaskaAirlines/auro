@@ -1,0 +1,9 @@
+# standard ignore
+.gitignore
+.travis.yml
+scripts/
+test/
+
+# ignore src
+
+# overrides
