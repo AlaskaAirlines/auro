@@ -1,8 +1,8 @@
 <img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="125" align="right" />
 
-[![Build Status](https://travis-ci.org/AlaskaAirlines/OrionStatelessComponents__docs.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/OrionStatelessComponents__docs)
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/docs.svg?color=orange)
-![NPM](https://img.shields.io/npm/l/@alaskaairux/docs.svg?color=blue)
+[![Build Status](https://travis-ci.org/AlaskaAirlines/ods-docs.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/ods-docs)
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
+![NPM](https://img.shields.io/npm/l/@alaskaairux/ods-docs.svg?color=blue)
 
 # Orion Stateless Components Standard Docs
 
