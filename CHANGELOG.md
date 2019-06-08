@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.0.2](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.1...v1.0.2) (2019-06-08)
+
+
+### Bug Fixes
+
+* update shield reference ([35354f0](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/35354f0))
+
 ## [1.0.1](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.0...v1.0.1) (2019-06-08)
 
 
