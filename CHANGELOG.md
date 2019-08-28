@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.0.3](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.2...v1.0.3) (2019-08-28)
+
+
+### Bug Fixes
+
+* add document for project quick start setup ([d1227d9](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/d1227d9))
+
 ## [1.0.2](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.1...v1.0.2) (2019-06-08)
 
 
