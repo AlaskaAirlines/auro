@@ -19,10 +19,10 @@ For install and setup instructions, please see [PROJECT_SETUP](/docs/PROJECT_SET
 
 ## Component directory structure
 
-The following boilerplate directory structure will be found in the [component boilerplate](https://github.com/AlaskaAirlines/OrionStatelessComponents__boilerplate) project. Be sure to read all the setup instructions in README.md prior to any development.
+The following boilerplate directory structure will be found in the [ods-wc-generator](https://github.com/AlaskaAirlines/ODS-WC-Generator) project. Be sure to read all the setup instructions in README.md prior to any development.
 
 ```
-~/ ... /statelessComponents/ods-[name]
+/ODS-WC-Generator/template
 ├── LICENSE
 ├── NOTICE
 ├── README.md
@@ -32,15 +32,9 @@ The following boilerplate directory structure will be found in the [component bo
 |  └── sass
 |     └── style.scss
 ├── docs
-|  ├── PROJECT_SETUP.md
-|  ├── TECH_DETAILS.md
-|  ├── TESTS.md
-|  └── ods-stateless-components.md
 ├── gulpfile.js
 ├── index.html
-├── pa11yReport.json
-├── package-lock.json
-├── package.json
+├── package.temp
 ├── polymer.json
 ├── scripts
 |  ├── componentConfig.json
@@ -49,10 +43,9 @@ The following boilerplate directory structure will be found in the [component bo
 |  ├── tokenScript.js
 |  └── tokenScriptCustom.js
 ├── src
-|  ├── ods-button.js
+|  ├── ods-[name].js
 |  ├── shape.json
 |  └── style.scss
-├── template.hbs
 └── test
    ├── index.html
    └── ods-[name]_test.html

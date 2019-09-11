@@ -1,12 +1,12 @@
 # Orion Stateless Component Browser Support
 
-The Orion Stateless component developed per this repository is compliant with Alaska Airlines' browser support matrix as published at the time of this project's publication. 
+Orion Stateless components are developed to be compliant with Alaska Airlines' browser support matrix as published at the time of this project's publication.
 
-If at any such time it is discovered that there is an issue with this component's support of any popular browser in use, please submit an issue and explain the discovered issue to the best of your ability. 
+If at any such time it is discovered that there is an issue with this component's support of any popular browser in use, please submit an issue and explain the discovered issue to the best of your ability.
 
 ## Browser Support Matrix
 
-Alaska Airlines currently supports the following browsers for the delivery of Stateless Web Components.
+Alaska Airlines currently supports the following browsers for the delivery of stateless web components.
 
 <small>Browsers that engineers are required to dev and test against:</small>
 
@@ -17,9 +17,8 @@ Alaska Airlines currently supports the following browsers for the delivery of St
 | Firefox | Current release | Windows, macOS, Android |
 | Edge* | Current release | Windows 10 |
 | Internet Explorer | 11 | Windows 7, Windows 8, Windows 10 |
-| Internet Explorer | 10 | Windows 7, Windows 8 |
 
-\* Edge currently refers to the original Microsoft version of the browser using the EdgeHTML engine. There is no official support for the upcoming Edge Chromium browser for macOS or Windows.
+\* On August 20, 2019, Microsoft made its first beta build for Chromium-based Edge browser available. The beta marks a major milestone, as it is the final stage before the stable version is available. The beta is available for Windows 7, Windows 8, Windows 10, and macOS.
 
 #### Browser support for HTML Web Components
 
@@ -32,9 +31,9 @@ Alaska Airlines currently supports the following browsers for the delivery of St
 
 [webcomponents.org](https://www.webcomponents.org/)
 
-† Transpiling from ES6 to ES5 is required for browser support. See [Babel Support doc](/docs/BABEL_SUPPORT.md) for information about Babel configuration support options.
+† Transpiling from ES6 to ES5 is required for browser support. See [Babel Support doc](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md) for information about Babel configuration support options.
 
-\* JavaScript polyfills are required in order for these browsers to render Polymer/Lit-element web components. See the [polyfill doc](/docs/POLYFILL.md) for more information on installment options.  
+\* JavaScript polyfills are required in order for these browsers to render Polymer/Lit-element web components. See the [polyfill doc](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/POLYFILL.md) for more information on installment options.
 
 #### Browser support for CSS Custom Properties (variables)
 
@@ -45,13 +44,14 @@ Alaska Airlines currently supports the following browsers for the delivery of St
 | Firefox | Current release | Yes |
 | Edge | Current release | Yes |
 | Internet Explorer | 11 | No* |
-| Internet Explorer | 10 | No* |
 
-\* Fallback CSS is required to support browser. See [Custom Properties doc](/docs/CUSTOM_PROPERTIES.md) for information about setup and configuration.
+\* Fallback CSS is required to support browser. See [Custom Properties doc](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/CUSTOM_PROPERTIES.md) for information about setup and configuration.
 
 
 ##
 
+<footer>
 <img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
+</footer>

@@ -1,6 +1,6 @@
-# Orion Quickstart Setup
+# Orion React Quickstart Setup
 
-The purpose of this document is to illustrate a bootstrap environment using Create-React-App and all currently available Orion Design System resources.
+The purpose of this document is to illustrate a bootstrap environment using **Create-React-App** and all currently available Orion Design System resources.
 
 ## Create React App
 
@@ -24,7 +24,7 @@ $ npm start
 
 ## ODS Design Tokens
 
-Design Tokens are required to drive the overall UI of the Orion Design System. These set-up instructions will address installing tokens as native CSS Custom Properties.
+Design Tokens are required to drive the overall UI of the Orion Design System. These set-up instructions will address installing tokens as native CSS custom properties.
 
 ```
 $ npm i @alaskaairux/orion-design-tokens
@@ -52,9 +52,9 @@ This resource is built using Sass, so you will need to install Sass in your proj
 $ npm i node-sass
 ```
 
-**NOTE:** If you are setting up in a project where you have customized your WebPack configuration, you may beed to install other resources to get Sass working. 
+**NOTE:** If you are setting up in a project where you have customized your WebPack configuration, you may need to install other resources to get Sass working. 
 
-When using Create React App, using Sass is pre-configured, so post install of `node-sass`, the last step is to change the current files from `.css` to `.scss` and their relative references. 
+When using Create React App, using Sass is pre-configured, so post the install of `node-sass`, the last step is to change the current files from `.css` to `.scss` and their relative references. 
 
 Install Orion Web Core Stylesheets
 
@@ -191,75 +191,17 @@ Once am optimized build as been created, `cd/` into the `./build` directory and 
 Be sure to update `public/manifest.json` per the project as well.
 
 
-
-## Accessibility and performance testing
-
-To view accessibility and performance testing results:
-
-```
-$ npm run build
-
-$ npm run httpserve
-```
-
-When the browser opens, open the Chrome Inspector, click the `Audits` tab and click `Run audits`
-
 ## Legacy browser support 
 
-Web Components and lit-element are not supported by legacy browsers, especially anything in the IE family of browsers. 
+To support legacy browsers, please see Orion's documentation on building in [backwards compatibility polyfill solution](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/POLYFILL.md). 
 
-The Orion Web Components take a two-step process to support legacy browsers. 
+### Babel support 
 
-1. Each component package comes with CSS fallbacks
-2. The project needs to test for Web Component support and apply the appropriate polyfills
-
-In regards to the polyfills, Polymer, and by extension lit-element, addresses many of these issues. But there are a few additional polyfills needed based on the browser. 
-
-The best way to address this is by one of the following. 
-
-1. Load the `webcomponents-loader.js` via CDN
-2. Load the `webcomponents-loader.js` internally with the project 
-
-### Load via CDN
-
-In the head of your project, insert the following HTML
-
-```
-<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.7/webcomponents-loader.js"></script>
-```
-
-### Load with the project 
-
-#### Install 
-
-```
-npm i @webcomponents/webcomponentsjs
-```
-
-#### Load Synchronous
-
-Place the following script tag in the `<head>` of your main app template. 
-
-```
-<script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-```
-
-Read more about the [npm package](https://www.npmjs.com/package/@webcomponents/webcomponentsjs) and the different ways to install as to best fit your needs. 
-
-#### Babel support 
-
-The use of modern HTML Web Components and leveraging supporting libraries like Lit-element requires developers employ modern coding techniques. This is especially crucial with the use of ES6+ JavaScript. As a result, older browsers still in use that do not support ES6+ will not support rendering of HTML Web Components.
-
-[See more about setup](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md)
-
-#### Webpack configuration
-
-It is highly recommended that you research solutions in your project to cache resources like lit-element and webcomponents-loader.js. Please consult with 
-
-
+In conjunction with the polyfill solution, developers will need to consider [babel support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md) that also includes customization of your project's [Webpack](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md#configuring-webpack) config. 
 
 ##
-
+<footer>
 <img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
+</footer>

@@ -1,6 +1,6 @@
 # Component JavaScript Callback
 
-When building custom elements with lit-element, use lit-html's `@event` binding in the custom element's template, inside the `render()` function to add an event listener.
+When building custom elements with litElement, use lit-html's `@event` binding in the custom element's template, inside the `render()` function to add an event listener.
 
 ```javascript
 render() {
@@ -14,15 +14,15 @@ render() {
 }
 ```
 
-When using lit-element custom elements, an event can be bound to the outer component itself, as shown in this React example.
+When using litElement custom elements, an event can be bound to the outer component itself, as shown in this React example.
 
 ```js
 <my-element onClick={() => console.log(`I am bound to the element`)}"></my-element>
 ```
 
-Used this way, the event will only be bound to the outer HTML container of the custom element, not any element contained within the shadowDOM. This would be like binding a click event to a `div` element wrapping a `button` element contained within.
+Used this way, the event will only be bound to the outer HTML container of the custom element, not any element contained within the shadow DOM. This would be like binding a click event to a `div` element wrapping a `button` element contained within.
 
-## Passing event into shadowDOM w/React
+## Passing event into shadow DOM w/React
 
 When using custom elements in React, the component's API needs to allow for any external event to be bound to the appropriate HTML element contained within the custom element.
 
@@ -46,7 +46,7 @@ componentDidMount() {
 }
 ```
 
-This example shows a ref to store a reference to a custom element DOM node:
+This example shows a `ref` to store a reference to a custom element DOM node:
 
 ```html
 <ods-button ref={this.logButton}>hello world</ods-button>
@@ -86,6 +86,8 @@ export default App;
 
 ##
 
+<footer>
 <img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
+</footer>

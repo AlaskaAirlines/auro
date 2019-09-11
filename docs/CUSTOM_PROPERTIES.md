@@ -1,6 +1,6 @@
 # Custom Properties Support
 
-CSS Custom Properties, aka CSS variables, are only supported by current browsers. 
+CSS custom properties, aka CSS variables, are only supported by current browsers. 
 
 | Browser | Supported release | Release date | Engine |
 |---|---|---|---|
@@ -11,7 +11,7 @@ CSS Custom Properties, aka CSS variables, are only supported by current browsers
 | Opera 	| 36 | March 6, 2016 | Blink | 
 | Internet Explorer | no support | no support | Trident |
 
-As a result, when CSS Custom Properties are used, the use of fallback CSS is necessary to support legacy Internet Explorer users. 
+As a result, when CSS custom properties are used, the use of fallback CSS is necessary to support legacy Internet Explorer users. 
 
 ## How CSS Custom Properties Work
 
@@ -27,7 +27,7 @@ With supporting browsers, the following code example would render the appropriat
 }
 ```
 
-In cases with Web Components that use the shadowDOM with encapsulated CSS support, custom properties can be written to the scope of the component. In this example, the `:host` selector would overwrite the `:host` selector and render the color red versus black. 
+In cases with custom elements that use the shadow DOM with encapsulated CSS support, custom properties can be written to the scope of the component. In this example, the `:host` selector would overwrite the `:root` selector and render the color red versus black. 
 
 ```css
 :host {
@@ -109,7 +109,8 @@ will output the following:
 
 
 ##
-
+<footer>
 <img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
+</footer>
