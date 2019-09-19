@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+## [1.0.5](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.4...v1.0.5) (2019-09-19)
+
+
+### Bug Fixes
+
+* add content for focus visible ([7c54955](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/7c54955))
+* add is-touching docs ([07b63fc](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/07b63fc))
+
 ## [1.0.4](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.3...v1.0.4) (2019-09-19)
 
 
