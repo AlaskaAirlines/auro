@@ -2,6 +2,10 @@
 
 Why would you need this? With all Orion custom elements the CSS for the element is embedded within the shadow DOM of the custom element. If your development environment is not allowing for the use of shadow DOM elements, the CSS for each element is distributed via additional resources within the npm package. 
 
+This resource is built via a build process and not heavily tested. If there are issues, please submit an issue ticket with the repo for resolution. **Use with caution**.
+
+## The code
+
 The two supporting directories are, `./altImports/canonical` and `./altImports/variable`.
 
 | directory | description |
@@ -43,7 +47,7 @@ This pattern will produce all the selectors within `style_clean.scss` with the p
 }
 ```
 
-**Warning!** Using the canonical CSS will break the chain of using Design Tokens. If Tokens are updated, this will require the update of the components and their canonical output. Use with caution.
+**Warning!** Using the canonical CSS will break the chain of using Design Tokens. If Tokens are updated, this will require the update of the components and their canonical output. **Use with caution**.
 
 ##
 
