@@ -15,19 +15,22 @@ Alaska Airlines currently supports the following browsers for the delivery of st
 | Chrome | Current release | Windows, macOS, iOS, Android |
 | Safari | Current release | macOS, iOS |
 | Firefox | Current release | Windows, macOS, Android |
-| Edge* | Current release | Windows 10 |
+| Edge* | Stable release | Windows 7, Windows 8, Windows 10 |
+| Edge† | 18 | Windows 10 |
 | Internet Explorer | 11 | Windows 7, Windows 8, Windows 10 |
 
 \* On August 20, 2019, Microsoft made its first beta build for Chromium-based Edge browser available. The beta marks a major milestone, as it is the final stage before the stable version is available. The beta is available for Windows 7, Windows 8, Windows 10, and macOS.
 
+† Edge 18 will be the final version to support [EdgeHTML](https://en.wikipedia.org/wiki/EdgeHTML) on Windows 10 machines only. 
+
 #### Browser support for HTML Web Components
 
-| Feature | Chrome | Opera | Safari | Firefox | Edge | IE
-|----|----|----|----|----|----|----|
-| HTML Templates | Stable | Stable | Stable | Stable | Stable | Transpiling†/Polyfill* |
-| Custom Elements | Stable | Stable | Stable | Stable | Polyfill | Transpiling†/Polyfill* |
-| Shadow DOM | Stable | Stable | Stable | Stable | Polyfill | Transpiling†/Polyfill* |
-| ES Modules | Stable | Stable | Stable | Stable | Stable | Transpiling†/Polyfill* |
+| Feature | Chrome | Opera | Safari | Firefox | Edge (Chrome) | Edge | IE
+|----|----|----|----|----|----|----|----|
+| HTML Templates | Stable | Stable | Stable | Stable | Stable | Stable | Transpiling†/Polyfill* |
+| Custom Elements | Stable | Stable | Stable | Stable | Stable | Polyfill | Transpiling†/Polyfill* |
+| Shadow DOM | Stable | Stable | Stable | Stable | Stable | Polyfill | Transpiling†/Polyfill* |
+| ES Modules | Stable | Stable | Stable | Stable | Stable | Stable | Transpiling†/Polyfill* |
 
 [webcomponents.org](https://www.webcomponents.org/)
 
@@ -42,6 +45,7 @@ Alaska Airlines currently supports the following browsers for the delivery of st
 | Chrome | Current release | Yes |
 | Safari | Current release | Yes |
 | Firefox | Current release | Yes |
+| Edge | Current release | Yes |
 | Edge | Current release | Yes |
 | Internet Explorer | 11 | No* |
 
