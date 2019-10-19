@@ -1,5 +1,15 @@
 # Semantic Release Automated Changelog
 
+## [1.0.6](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.5...v1.0.6) (2019-10-19)
+
+
+### Bug Fixes
+
+* add why content page ([6fb3889](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/6fb3889))
+* alt build updates ([cc26cab](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/cc26cab))
+* update browser support doc ([b371f95](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/b371f95))
+* update dir from docs to src ([51d29a2](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/51d29a2))
+
 ## [1.0.5](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.4...v1.0.5) (2019-09-19)
 
 
