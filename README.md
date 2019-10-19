@@ -6,19 +6,20 @@
 
 # Orion Stateless Components Standard Docs
 
-All information regarding Project Setup, Technical Details, Tests and information regarding ODS Stateless Components can be found in the [./docs](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/tree/master/docs) directory of the Orion Stateless Components repository.
+All information regarding Project Setup, Technical Details, Tests and information regarding ODS Stateless Components can be found in the [docs](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/tree/master/src) repo for the Orion Stateless Components.
 
 ### Index of documents
 
-* [Alternate custom element CSS build](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/ALT_BUILD.md)
-* [Babel support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md)
-* [Browser support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BROWSER_SUPPORT.md)
-* [Custom callbacks](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/CALLBACK.md)
-* [CSS custom properties(CSS variables)](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/CUSTOM_PROPERTIES.md)
-* [See up new React project](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/NEW_REACT_PROJECT_SETUP.md)
-* [Custom element polyfill](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/POLYFILL.md)
-* [Custom element technical details](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/TECH_DETAILS.md)
-* [Tests](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/TESTS.md)
+* [Alternate custom element CSS build](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/ALT_BUILD.md)
+* [Babel support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/BABEL_SUPPORT.md)
+* [Browser support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/BROWSER_SUPPORT.md)
+* [Custom callbacks](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/CALLBACK.md)
+* [CSS custom properties(CSS variables)](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/CUSTOM_PROPERTIES.md)
+* [Set up new React project](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/NEW_REACT_PROJECT_SETUP.md)
+* [Custom element polyfill](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/POLYFILL.md)
+* [Custom element technical details](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/TECH_DETAILS.md)
+* [Tests](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/TESTS.md)
+* [Why Custom Elements?](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/WHY_CUSTOMELEMENT.md)
 
 
 ##
