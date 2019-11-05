@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.0.7](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.6...v1.0.7) (2019-11-05)
+
+
+### Bug Fixes
+
+* add open-wc and karma testing documentation ([3e6c503](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/3e6c503))
+
 ## [1.0.6](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.5...v1.0.6) (2019-10-19)
 
 
