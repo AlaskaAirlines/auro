@@ -37,7 +37,7 @@ constructor(props) {
 }
 ```
 
-In the next example, in the `componentDidMount()` function, the current attribute of the ref is bound to a variable. The callback function is bound to the `buttonCallback` prop of the \<ods-button> API using the ref's current attribute.
+In the next example, in the `componentDidMount()` function, the current attribute of the ref is bound to a variable. The callback function is bound to the `buttonCallback` prop of the `<ods-button>` API using the ref's current attribute.
 
 ```js
 componentDidMount() {
