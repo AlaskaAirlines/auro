@@ -1,4 +1,4 @@
-# Testing 
+# Testing
 
 Components created using the [ODS-WC-Generator](https://github.com/AlaskaAirlines/ODS-WC-Generator) will be configured with testing tools based on [open-wc](https://open-wc.org/) recommendations.
 
@@ -24,7 +24,7 @@ To learn more about these testing libraries, please visit their respective docum
 
 `karma.conf.js` contains the configuration used by Karma. Refer to the [Karma - Configuration File](http://karma-runner.github.io/4.0/config/configuration-file.html) documentation for the specific settings that can be used with Karma.
 
-[@open-wc/testing-karma](https://open-wc.org/testing/testing-karma.html) provides default Karma configuration in [create-default-config.js](https://github.com/open-wc/open-wc/blob/master/packages/testing-karma/src/create-default-config.js). This will set the Istanbul Reporter *statements / branches / functions/ lines* [coverage](https://github.com/open-wc/open-wc/blob/master/packages/testing-karma/src/create-default-config.js#L93) to **80%**. ODS components require all coverage thresholds to be met before committing. 
+[@open-wc/testing-karma](https://open-wc.org/testing/testing-karma.html) provides default Karma configuration in [create-default-config.js](https://github.com/open-wc/open-wc/blob/master/packages/testing-karma/src/create-default-config.js). This will set the Istanbul Reporter *statements / branches / functions/ lines* [coverage](https://github.com/open-wc/open-wc/blob/master/packages/testing-karma/src/create-default-config.js#L93) to **80%**. ODS components require all coverage thresholds to be met before committing.
 
 # Running Tests
 The `package.json` for generated ODS components have the following test commands in the scripts block:
@@ -68,7 +68,7 @@ If you wish to debug your unit tests interactively, you may use developer tools 
 
 ### Debugging in the browser via developer tools
 
-1. Run Karma via the command line  
+1. Run Karma via the command line
 
     `npm run test:watch`
 
@@ -97,7 +97,6 @@ Their primary use is within the build/dist and pre-commit scripts to ensure that
 ##
 
 <footer>
-<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

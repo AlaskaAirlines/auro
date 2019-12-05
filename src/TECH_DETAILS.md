@@ -30,7 +30,7 @@ This process is represented in the `demo/` section of any custom element project
 
 ### Style Dictionary scripts and config settings
 
-Building out Sass Variables and CSS Custom Properties from Design Token JSON files is a key dependency for any CSS development. 
+Building out Sass Variables and CSS Custom Properties from Design Token JSON files is a key dependency for any CSS development.
 
 | Command | Description |
 |----|----|
@@ -62,11 +62,11 @@ Using [Sass](https://sass-lang.com/) and other techniques makes this undesirable
 
 ## Accessibility(a11y) testing
 
-The evaluation of a11y is a per-component responsibility. To test a11y performance, please see the [accessibility and testing](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/A11Y.md) documentation. 
+The evaluation of a11y is a per-component responsibility. To test a11y performance, please see the [accessibility and testing](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/A11Y.md) documentation.
 
 ## Development, what goes where?
 
-The following details what type of code should go where within the scope of a custom element project. 
+The following details what type of code should go where within the scope of a custom element project.
 
 ```
 ODS-WC-Generator/template
@@ -144,7 +144,6 @@ See [demo](https://www.webcomponents.org/element/@polymer/iron-icons/demo/demo/i
 
 ##
 <footer>
-<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

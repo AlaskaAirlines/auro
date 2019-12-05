@@ -1,6 +1,6 @@
 # Alternate build solutions
 
-Why would you need this? With all Orion custom elements the CSS for the element is embedded within the shadow DOM of the custom element. If your development environment is not allowing for the use of shadow DOM elements, the CSS for each element is distributed via additional resources within the npm package. 
+Why would you need this? With all Orion custom elements the CSS for the element is embedded within the shadow DOM of the custom element. If your development environment is not allowing for the use of shadow DOM elements, the CSS for each element is distributed via additional resources within the npm package.
 
 This resource is built via a build process and not heavily tested. If there are issues, please submit an issue ticket with the repo for resolution. **Use with caution**.
 
@@ -52,7 +52,6 @@ This pattern will produce all the selectors within `style_clean.scss` with the p
 ##
 
 <footer>
-<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

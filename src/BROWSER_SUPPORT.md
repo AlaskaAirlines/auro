@@ -21,7 +21,7 @@ Alaska Airlines currently supports the following browsers for the delivery of st
 
 \* On August 20, 2019, Microsoft made its first beta build for Chromium-based Edge browser available. The beta marks a major milestone, as it is the final stage before the stable version is available. The beta is available for Windows 7, Windows 8, Windows 10, and macOS.
 
-† Edge 18 will be the final version to support [EdgeHTML](https://en.wikipedia.org/wiki/EdgeHTML) on Windows 10 machines only. 
+† Edge 18 will be the final version to support [EdgeHTML](https://en.wikipedia.org/wiki/EdgeHTML) on Windows 10 machines only.
 
 #### Browser support for HTML Web Components
 
@@ -55,7 +55,6 @@ Alaska Airlines currently supports the following browsers for the delivery of st
 ##
 
 <footer>
-<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

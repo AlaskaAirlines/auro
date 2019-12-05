@@ -131,3 +131,9 @@ Once a pull request has been created, the assigned reviewers should have receive
 A reviewer has the option to leave comments, ask questions and reject the pull request.
 
 Once two reviewers have approved the work, the pull request can then be completed.
+
+##
+<footer>
+Alaska Airlines Orion Design System<br>
+Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
+</footer>

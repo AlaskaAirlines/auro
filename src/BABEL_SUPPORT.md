@@ -1,10 +1,10 @@
 # Babel Support
 
-The use of modern HTML custom elements and leveraging supporting libraries like LitElement requires developers employ modern coding techniques. This is especially crucial with the use of ES6+ JavaScript. As a result, older browsers still in use that do not support ES6+ will not  support rendering of HTML custom elements. 
+The use of modern HTML custom elements and leveraging supporting libraries like LitElement requires developers employ modern coding techniques. This is especially crucial with the use of ES6+ JavaScript. As a result, older browsers still in use that do not support ES6+ will not  support rendering of HTML custom elements.
 
-To address this, Alaska Airlines developers are encouraged to use Babel to transpile ES6+ code to whatever legacy version of ECMAScript is needed to meet their support matrix. 
+To address this, Alaska Airlines developers are encouraged to use Babel to transpile ES6+ code to whatever legacy version of ECMAScript is needed to meet their support matrix.
 
-The following is an example of how to configure Babel that best meets the current deliverable support standard. 
+The following is an example of how to configure Babel that best meets the current deliverable support standard.
 
 ## Configuring Babel
 
@@ -96,7 +96,7 @@ module.exports = {
 
 ### Packages without legacy browser support
 
-Many packages do not meet the specifications of Alaska's legacy browser support, mainly due to use of modern code. These will include internal and external packages. 
+Many packages do not meet the specifications of Alaska's legacy browser support, mainly due to use of modern code. These will include internal and external packages.
 
 To address packages without built-in legacy browser support, please do the following within the webpack config rule for babel:
 
@@ -134,7 +134,6 @@ module.exports = {
 ##
 
 <footer>
-<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="50" align="right" />
 Alaska Airlines Orion Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>
