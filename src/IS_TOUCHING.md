@@ -20,6 +20,7 @@ The purpose of this function is to place a `.is-touching` selector on any elemen
 
 ### Support for custom elements
 
+It is important to remember that the touch event will be associated to the host custom element and not any part of the inner shadow DOM HTML. The following is a Sass code example of how `<ods-button>` supports this scenario.
 
 As illustrated in this example, when the selector `:host` does NOT have the `.is-touching` selector applied to the host custom element, then the `:hover` selector will be applied. Whereas if the `.is-touching` selector IS on the host custom element, the `:hover` will not be applied.
 
