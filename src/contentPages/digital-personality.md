@@ -14,10 +14,10 @@ Following are examples of how our digital personality palette might be used acro
 
 ### Interface accents
 
-When conversational tones are introduced as interface accents, they support core UI elements in deepening hierarchy and highlighting content. 
+When conversational tones are introduced as interface accents, they support core UI elements in deepening hierarchy and highlighting content.
 
-![](./digital-personality/interfaceAccents.jpg)
-![](./digital-personality/interfaceAccents(2).gif)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/interfaceAccents.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/interfaceAccents(2).gif)
 
 ## Transactional colors
 
@@ -25,55 +25,55 @@ We use our transactional colors to move guests through task-based interactions.
 
 ### Midnight
 
-Midnight reinforces our confident tone and builds off of our wordmark color. This color is most effective in situations that call for being bold and brand-forward. 
+Midnight reinforces our confident tone and builds off of our wordmark color. This color is most effective in situations that call for being bold and brand-forward.
 
-Use Midnight sparingly. Refer to the Design Guidelines section for more information on using Midnight. 
+Use Midnight sparingly. Refer to the Design Guidelines section for more information on using Midnight.
 
-![](./digital-personality/transactionalColorsMidnight.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/transactionalColorsMidnight.jpg)
 
 ### Atlas
 
 Use Atlas for interactions on a light background. Don't use Atlas for non-interactive elements: this can dilute the experience and cause confusion for guests.
 
-![](./digital-personality/transactionalColorsAtlas.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/transactionalColorsAtlas.jpg)
 
 ### Breeze
 
 Use Breeze for interactions on a dark background. Don't use Breeze for non-interactive elements: this can dilute the experience and cause confusion for guests.
 
-![](./digital-personality/transactionalColorsBreeze.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/transactionalColorsBreeze.jpg)
 
 ### Tropical
 Tropical enhances our interface with a vibrant, electric tone analogous to our blue hues. This tone should be used only to compliment or highlight other content.
 
-![](./digital-personality/transactionalColorsTropical.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/transactionalColorsTropical.jpg)
 
 
 ## Conversational colors
 
-Our conversational colors add warmth and energy to our experience. Each color evokes or elicits a specific emotion. 
+Our conversational colors add warmth and energy to our experience. Each color evokes or elicits a specific emotion.
 Use these colors sparingly, and only when they support and reinforce the content and intended function.
 
 ### Alpine
 
 Alpine carries a tone of friendly sophistication.
 
-![](./digital-personality/conversationalColorsAlpine.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/conversationalColorsAlpine.jpg)
 
 ### Flamingo
 
-Flamingo is a playful and emotive color, and can be used to imply warmth and affection. 
+Flamingo is a playful and emotive color, and can be used to imply warmth and affection.
 
-![](./digital-personality/conversationalColorsFlamingo.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/conversationalColorsFlamingo.jpg)
 
 ### Canyon
 
 Canyon is a bold color that captures excitement. This color is most effective when appealing to the adventure and discovery of travel.
 
-![](./digital-personality/conversationalColorsCanyon.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/conversationalColorsCanyon.jpg)
 
 ### Goldcoast
 
-Goldcoast inspires joy. It is a way to capture the fun of travel in our interfaces. Use Goldcoast to highlight content that might otherwise be lost on the page. Most complimentary to our blue hues, consider Goldcoast to add depth and contrast. 
+Goldcoast inspires joy. It is a way to capture the fun of travel in our interfaces. Use Goldcoast to highlight content that might otherwise be lost on the page. Most complimentary to our blue hues, consider Goldcoast to add depth and contrast.
 
-![](./digital-personality/conversationalColorsGoldcoast.jpg)
+![](https://raw.githubusercontent.com/AlaskaAirlines/OrionStatelessComponents__docs/master/src/contentPages/digital-personality/conversationalColorsGoldcoast.jpg)
