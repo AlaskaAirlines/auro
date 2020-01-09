@@ -1,10 +1,6 @@
 # Alternate build solutions
 
--
-
 **DEPRECATED**: This process has been deprecated as all components are moving to support light DOM versions as well as shadow DOM versions. 
-
--
 
 Why would you need this? With all Orion custom elements the CSS for the element is embedded within the shadow DOM of the custom element. If your development environment is not allowing for the use of shadow DOM elements, the CSS for each element is distributed via additional resources within the npm package.
 
