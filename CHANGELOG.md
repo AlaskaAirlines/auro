@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.1.0](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.7...v1.1.0) (2020-01-13)
+
+
+### Features
+
+* add support for labelsync ([b5b0620](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/b5b0620))
+
 ## [1.0.7](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.6...v1.0.7) (2019-11-05)
 
 
