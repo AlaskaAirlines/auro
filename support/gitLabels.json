@@ -1,0 +1,190 @@
+[
+  {
+    "name": "duplicate",
+    "color": "fff0cd",
+    "description": "This issue or Pull Request already exists"
+  },
+  {
+    "name": "help wanted",
+    "color": "8439ef",
+    "description": "Extra attention is needed"
+  },
+  {
+    "name": "good first issue",
+    "color": "00cff0",
+    "description": "Good for newcomers",
+    "aliases": [
+      "beginner-friendly",
+      "beginner",
+      "good-starter-issue",
+      "good for beginner",
+      "Good for beginners",
+      "starter-issue",
+      "starter"
+    ]
+  },
+  {
+    "name": "Priority: Critical",
+    "color": "df0b37",
+    "description": "Issues that need immediate attention"
+  },
+  {
+    "name": "Priority: High",
+    "color": "de750c",
+    "description": "Issues that need attention soon"
+  },
+  {
+    "name": "Priority: Medium",
+    "color": "ffd200",
+    "description": "Issues that need attention as possible"
+  },
+  {
+    "name": "Priority: Low",
+    "color": "c0e585",
+    "description": "Issues that need not be forgotten"
+  },
+  {
+    "name": "Status: Abandoned",
+    "color": "fff0cd",
+    "description": "The issue or Pull Request is wontfix",
+    "aliases": [
+      "wontfix",
+      "invalid"
+    ]
+  },
+  {
+    "name": "Status: Blocked",
+    "color": "df0b37",
+    "description": "Progress on the issue is Blocked",
+    "aliases": [
+      "blocked"
+    ]
+  },
+  {
+    "name": "Status: Work In Progress",
+    "description": "Work in Progress",
+    "color": "fff0cd"
+  },
+  {
+    "name": "Status: Proposal",
+    "color": "0074c8",
+    "description": "Request for comments",
+    "aliases": [
+      "idea",
+      "Idea",
+      "proposal",
+      "Proposal",
+      "discussion"
+    ]
+  },
+  {
+    "name": "Status: PR Welcome",
+    "color": "8439ef",
+    "description": "Welcome to Pull Request",
+    "aliases": [
+      "Patch Welcome",
+      "Status: Ready for PR"
+    ]
+  },
+  {
+    "name": "Status: Review Needed",
+    "color": "0074c8",
+    "description": "Request for review comments"
+  },
+  {
+    "name": "Status: Need More Info",
+    "color": "0074c8",
+    "description": "Lacks enough info to make progress"
+  },
+  {
+    "name": "Status: Ready to Merge",
+    "color": "00805d",
+    "description": "Owner has completed work"
+  },
+  {
+    "name": "Type: Breaking Change",
+    "color": "de750c",
+    "description": "Includes breaking changes",
+    "aliases": [
+      "breaking",
+      "breaking-change"
+    ]
+  },
+  {
+    "name": "Type: Bug",
+    "color": "df0b37",
+    "description": "Bug or Bug fixes",
+    "aliases": [
+      "bug"
+    ]
+  },
+  {
+    "name": "Type: Documentation",
+    "color": "0074c8",
+    "description": "Documentation only changes",
+    "aliases": [
+      "documents",
+      "document"
+    ]
+  },
+  {
+    "name": "Type: Feature",
+    "color": "0074c8",
+    "description": "New Feature",
+    "aliases": [
+      "enhancement"
+    ]
+  },
+  {
+    "name": "Type: Refactoring",
+    "color": "fff0cd",
+    "description": "A code change that neither fixes a bug nor adds a feature",
+    "aliases": [
+      "refactor"
+    ]
+  },
+  {
+    "name": "Type: Testing",
+    "color": "fff0cd",
+    "description": "Adding missing tests or correcting existing tests",
+    "aliases": [
+      "test",
+      "testing"
+    ]
+  },
+  {
+    "name": "Type: Maintenance",
+    "color": "fff0cd",
+    "description": "Repository Maintenance",
+    "aliases": [
+      "greenkeeper",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Type: CI",
+    "color": "fff0cd",
+    "description": "Changes to CI configuration files and scripts",
+    "aliases": [
+      "travis",
+      "ci",
+      "circleci"
+    ]
+  },
+  {
+    "name": "Type: Question",
+    "color": "8439ef",
+    "description": "Further information is requested",
+    "aliases": [
+      "question"
+    ]
+  },
+  {
+    "name": "Type: Dependencies",
+    "color": "fff0cd",
+    "description": "Pull requests that update a dependency file",
+    "aliases": [
+      "dependencies"
+    ]
+  }
+]
