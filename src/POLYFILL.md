@@ -1,7 +1,5 @@
 # Web Component Polyfill Support
 
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
-
 HTML custom elements and and litElement are not supported by legacy browsers, especially anything in the IE family of browsers.
 
 The Auro Web Components take a two-step process to support legacy browsers.
@@ -52,10 +50,3 @@ import ('@webcomponents/webcomponents.js').then(() => {
   import ('@alaskaairux/ods-hyperlink/dist/ods-hyperlink');
 });
 ```
-
-
-##
-<footer>
-Alaska Airlines Auro Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>

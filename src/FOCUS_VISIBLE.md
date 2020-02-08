@@ -1,7 +1,5 @@
 # Accessibility focus visible
 
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
-
 One of the core pillars for supporting accessibility (a11y) within a modern web application is through maintaining the state of focus as a user tabs through an interface. The current implementation of this a11y state is via the `:focus` state introduced in CSS Level 2 (Revision 1).
 
 For a11y reasons, according to the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus#Accessibility_Concerns), it is advised to NEVER remove the browsers default settings without replacing it with a sufficient substitute.
@@ -51,9 +49,3 @@ It is important to remember that the focus-visible tab feature will NOT tab into
   }
 }
 ```
-
-##
-<footer>
-Alaska Airlines Auro Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>

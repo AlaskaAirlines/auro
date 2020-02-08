@@ -1,7 +1,5 @@
 # Custom Properties Support
 
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
-
 CSS custom properties, aka CSS variables, are only supported by current browsers.
 
 | Browser | Supported release | Release date | Engine |
@@ -105,9 +103,3 @@ will output the following:
   color: var(--base-color);
 }
 ```
-
-##
-<footer>
-Alaska Airlines Auro Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>

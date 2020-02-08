@@ -1,7 +1,5 @@
 # Web Component Automated Testing
 
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
-
 Components created using the [ODS-WC-Generator](https://github.com/AlaskaAirlines/ODS-WC-Generator) will be configured with testing tools based on [open-wc](https://open-wc.org/) recommendations.
 
 ## Testing tools
@@ -95,9 +93,3 @@ $ npm run jsonLint
 ```
 
 Their primary use is within the build/dist and pre-commit scripts to ensure that the coded files are correct at the time of build.
-
-##
-<footer>
-Alaska Airlines Auro Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>

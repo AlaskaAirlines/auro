@@ -1,7 +1,5 @@
 # React Quickstart Setup
 
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
-
 The purpose of this document is to illustrate a bootstrap environment using **Create-React-App** and all currently available Orion Design System resources.
 
 ## Create React App
@@ -200,9 +198,3 @@ To support legacy browsers, please see Orion's documentation on building in [bac
 ### Babel support
 
 In conjunction with the polyfill solution, developers will need to consider [babel support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md) that also includes customization of your project's [Webpack](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md#configuring-webpack) config.
-
-##
-<footer>
-Alaska Airlines Auro Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>

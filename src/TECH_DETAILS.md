@@ -1,7 +1,5 @@
 # ODS and Auro Web Component Development Details
 
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
-
 Building the JavaScript and CSS for an Auro custom element requires a handful of processing events in order to produce the desired code needed per component that meets the needs of the current state of [browser support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/BROWSER_SUPPORT.md).
 
 ## Polymer Development
@@ -117,9 +115,3 @@ OWCSS resources have a dependency on Sass variables while components use [CSS cu
 Icon icons are **not used** for Orion purposes. This is a utility only used for the purposes of the **demo** within each component directory.
 
 See [demo](https://www.webcomponents.org/element/@polymer/iron-icons/demo/demo/index.html)
-
-##
-<footer>
-Alaska Airlines Auro Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>

@@ -1,7 +1,5 @@
 # Why Custom Elements?
 
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
-
 **Problem**: Building agnostic HTML/CSS/JS deliverables places much of the onus on the font-end engineers to ensure that they are compliant with the design standard over time. Maintaining versioning is impossible.
 
 **Constraint**: Development teams deserve the right to leverage the technology that best suits their deliverable. A design system deliverable must not place unnecessary bias or be overly opinionated in execution.
@@ -136,9 +134,3 @@ Please see the following resources to learn more about Web Components, lit-html 
 * [litElement by Jad Joubran](https://www.youtube.com/watch?v=pnH1sTPWv6I)
 * [Lightning UI Platform: Web Components And Beyond](https://slideslive.com/38918861/lightning-ui-platform-web-components-and-beyond)
 * [Declarative Reactive Web Components with Justin Fagnani](https://www.youtube.com/watch?v=9FB0GSOAESo)
-
-##
-<footer>
-Alaska Airlines Auro Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>
