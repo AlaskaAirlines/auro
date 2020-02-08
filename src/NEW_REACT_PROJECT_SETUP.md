@@ -1,4 +1,6 @@
-# Orion React Quickstart Setup
+# React Quickstart Setup
+
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
 
 The purpose of this document is to illustrate a bootstrap environment using **Create-React-App** and all currently available Orion Design System resources.
 
@@ -22,7 +24,7 @@ Once the bootstrap app has been created, `cd/` in to the new project directory a
 $ npm start
 ```
 
-## ODS Design Tokens
+## Design Tokens
 
 Design Tokens are required to drive the overall UI of the Orion Design System. These set-up instructions will address installing tokens as native CSS custom properties.
 
@@ -42,7 +44,7 @@ This addition will add all the Orion Design Token CSS custom properties to your 
 
 If desired, [view documentation](https://github.com/AlaskaAirlines/OrionDesignTokens#build-orion-design-tokens-pipeline) for how to build your own custom pipeline when using Orion Design Tokens with Style Dictionary.
 
-## Orion Web Core Stylesheets
+## Web Core Stylesheets
 
 Orion Web Core Style sheets is a responsive, mobile-first collection of styles and tools designed to make it quick and simple for developers to create web experiences using the Orion Design Language.
 
@@ -201,6 +203,6 @@ In conjunction with the polyfill solution, developers will need to consider [bab
 
 ##
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

@@ -1,12 +1,14 @@
 # CSS hover and is-touching support
 
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
+
 Within all UIs is the option to hover over an element and have an interactive response. When it comes to mobile-first design and development, the hover scenario is largely ignored as it is impossible to track a hover with a touch device.
 
 It also should be noted that a hover event should not be supported in mobile-first development as the hover will be apparent with the fist tap, then the active or focus state will be visualized.
 
-## Orion and hover support
+## Auro and hover support
 
-In the Orion Design System, the concept of a hover is supported, but it is important to keep this interaction away from touch users. Within each component is a simple function that listens for [touchstart](https://developer.mozilla.org/en-US/docs/Web/API/Element/touchstart_event) event that is part of the larger [touch events](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events) specification.
+In the Auro Design System, the concept of a hover is supported, but it is important to keep this interaction away from touch users. Within each component is a simple function that listens for [touchstart](https://developer.mozilla.org/en-US/docs/Web/API/Element/touchstart_event) event that is part of the larger [touch events](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events) specification.
 
 > In order to provide quality support for touch-based user interfaces, touch events offer the ability to interpret finger (or stylus) activity on touch screens or trackpads.
 
@@ -33,17 +35,8 @@ As illustrated in this example, when the selector `:host` does NOT have the `.is
   }
 }
 ```
-
-
-
-
-
-
-
-
 ##
-
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

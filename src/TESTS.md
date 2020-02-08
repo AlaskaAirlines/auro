@@ -1,4 +1,6 @@
-# Testing
+# Web Component Automated Testing
+
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
 
 Components created using the [ODS-WC-Generator](https://github.com/AlaskaAirlines/ODS-WC-Generator) will be configured with testing tools based on [open-wc](https://open-wc.org/) recommendations.
 
@@ -26,8 +28,8 @@ To learn more about these testing libraries, please visit their respective docum
 
 [@open-wc/testing-karma](https://open-wc.org/testing/testing-karma.html) provides default Karma configuration in [create-default-config.js](https://github.com/open-wc/open-wc/blob/master/packages/testing-karma/src/create-default-config.js). This will set the Istanbul Reporter *statements / branches / functions/ lines* [coverage](https://github.com/open-wc/open-wc/blob/master/packages/testing-karma/src/create-default-config.js#L93) to **80%**. ODS components require all coverage thresholds to be met before committing.
 
-# Running Tests
-The `package.json` for generated ODS components have the following test commands in the scripts block:
+## Running Tests
+The `package.json` for generated ODS and Auro components have the following test commands in the scripts block:
 
 ```json
 "scripts": {
@@ -95,8 +97,7 @@ $ npm run jsonLint
 Their primary use is within the build/dist and pre-commit scripts to ensure that the coded files are correct at the time of build.
 
 ##
-
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

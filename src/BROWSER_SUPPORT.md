@@ -1,4 +1,6 @@
-# Orion Stateless Component Browser Support
+# Auro Web Component Browser Support
+
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
 
 Orion Stateless components are developed to be compliant with Alaska Airlines' browser support matrix as published at the time of this project's publication.
 
@@ -46,15 +48,13 @@ Alaska Airlines currently supports the following browsers for the delivery of st
 | Safari | Current release | Yes |
 | Firefox | Current release | Yes |
 | Edge | Current release | Yes |
-| Edge | Current release | Yes |
 | Internet Explorer | 11 | No* |
 
 \* Fallback CSS is required to support browser. See [Custom Properties doc](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/CUSTOM_PROPERTIES.md) for information about setup and configuration.
 
 
 ##
-
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

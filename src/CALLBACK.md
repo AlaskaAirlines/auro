@@ -1,5 +1,7 @@
 # Component JavaScript Callback
 
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
+
 When building custom elements with litElement, use lit-html's `@event` binding in the custom element's template, inside the `render()` function to add an event listener.
 
 ```javascript
@@ -85,8 +87,7 @@ export default App;
 ```
 
 ##
-
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

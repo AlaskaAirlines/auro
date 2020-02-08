@@ -1,5 +1,7 @@
 # Why Custom Elements?
 
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
+
 **Problem**: Building agnostic HTML/CSS/JS deliverables places much of the onus on the font-end engineers to ensure that they are compliant with the design standard over time. Maintaining versioning is impossible.
 
 **Constraint**: Development teams deserve the right to leverage the technology that best suits their deliverable. A design system deliverable must not place unnecessary bias or be overly opinionated in execution.
@@ -12,7 +14,7 @@
 * <a href="#customelements">HTML Custom Elements</a>
 * <a href="#shadowdom">Shadow DOM</a>
 * <a href="#itsastadndard">It's a standard? But, no frameworks?</a>
-* <a href="#odsuseslitelement">ODS uses litElement</a>
+* <a href="#aurouseslitelement">Auro uses litElement</a>
 * <a href="#resources">Resources</a>
 
 <a id="strengthsinstandards"></a>
@@ -58,7 +60,7 @@ This native encapsulation means that developers can build custom elements to a s
 
 ## HTML templates
 
-Reuse code. A core pillar of building any application. HTML templates within the scope of Web Components is a supercharged template API allowing developers to create markup templates that are not displayed to the page, but used to construct an endless number of reproductions based on a combination of logic and custom attribute properties.
+HTML templates within the scope of Web Components is a supercharged template API allowing developers to create markup templates that are not displayed to the page, but used to construct an endless number of reproductions based on a combination of logic and custom attribute properties.
 
 <a id="itsastadndard"></a>
 ## It's a standard? But, no frameworks?
@@ -99,8 +101,8 @@ For the most part, the previous statement is all you really need to know about l
 
 litElement also provides a small set of [lifecycle hooks](https://lit-element.polymer-project.org/guide/lifecycle) for asynchronous responses to observed property changes. Full support for [event listeners](https://lit-element.polymer-project.org/guide/events), [properties](https://lit-element.polymer-project.org/guide/properties) for full web component API development as well as many other features.
 
-<a id="odsuseslitelement"></a>
-## ODS uses litElement
+<a id="aurouseslitelement"></a>
+## Auro uses litElement
 
 The really direct answer to this is, litElement and lit-html are really designed to fill a gap in development when creating web components. In today's world there are really three ways to build web components.
 
@@ -137,6 +139,6 @@ Please see the following resources to learn more about Web Components, lit-html 
 
 ##
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

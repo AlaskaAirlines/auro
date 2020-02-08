@@ -1,10 +1,16 @@
 # Alternate build solutions
 
-**DEPRECATED**: This process has been deprecated as all components are moving to support light DOM versions as well as shadow DOM versions. 
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
+
+<span style="color: red; font-weight: bold">DEPRECATED:</span> use light DOM component if available. 
+
+This process has been deprecated as all components are moving to support light DOM versions as well as shadow DOM versions. 
 
 Why would you need this? With all Orion custom elements the CSS for the element is embedded within the shadow DOM of the custom element. If your development environment is not allowing for the use of shadow DOM elements, the CSS for each element is distributed via additional resources within the npm package.
 
-This resource is built via a build process and not heavily tested. If there are issues, please submit an issue ticket with the repo for resolution. **Use with caution**.
+This resource is built via a build process and not heavily tested. If there are issues, please submit an issue ticket with the repo for resolution.
+
+<span style="color: red; font-weight: bold">Use with caution</span>
 
 ## The code
 
@@ -52,8 +58,7 @@ This pattern will produce all the selectors within `style_clean.scss` with the p
 **Warning!** Using the canonical CSS will break the chain of using Design Tokens. If Tokens are updated, this will require the update of the components and their canonical output. **Use with caution**.
 
 ##
-
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

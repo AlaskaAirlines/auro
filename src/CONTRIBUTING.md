@@ -1,4 +1,6 @@
-# Orion Design System Contributing Guidelines
+# Auro Design System Contributing Guidelines
+
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
@@ -134,6 +136,6 @@ Once two reviewers have approved the work, the pull request can then be complete
 
 ##
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

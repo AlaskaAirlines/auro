@@ -1,10 +1,12 @@
-# ODS Stateless Component Development Details
+# ODS and Auro Web Component Development Details
 
-Building the JavaScript and CSS for an Orion custom element requires a handful of processing events in order to produce the desired code needed per component that meets the needs of the current state of [browser support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md).
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
+
+Building the JavaScript and CSS for an Auro custom element requires a handful of processing events in order to produce the desired code needed per component that meets the needs of the current state of [browser support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/BROWSER_SUPPORT.md).
 
 ## Polymer Development
 
-Developing and rendering components require Polymer resources. In order to easily support this in a development environment it is suggested that developers install the Polymer-CLI globally for dev use.
+Current development and rendering demo components require Polymer resources. In order to easily support this in a development environment it is suggested that developers install the Polymer-CLI globally for dev use.
 
 | Dependency | info |
 |----|----|
@@ -18,32 +20,11 @@ $ polymer serve
 
 ## Custom fonts
 
-Building components requires local access to custom web fonts. After installing the [Orion Web Core Stylesheet(OWCSS)](https://github.com/AlaskaAirlines/OrionWebCoreStyleSheets) project, see the docs for more information about how to access and render Orion's custom fonts.
+Building components requires local access to custom web fonts. After installing the [Web Core Stylesheet(OWCSS)](https://github.com/AlaskaAirlines/OrionWebCoreStyleSheets) project, see the docs for more information about how to access and render Auro's custom fonts.
 
 ## Building resources from Orion Design Tokens
 
-The use of ODS components requires the use of **Token CSS Custom Properties** and **Token Sass Variables** from the [ODS Design Tokens](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) project.
-
-This is necessary as each component references these global Custom Properties directly and many of the features of OWCSS require information from the Sass variables. When the Orion Design Tokens are updated, these values will influence the nested Web Components within the scope of the project as well as any project scoped Sass.
-
-This process is represented in the `demo/` section of any custom element project.
-
-### Style Dictionary scripts and config settings
-
-Building out Sass Variables and CSS Custom Properties from Design Token JSON files is a key dependency for any CSS development.
-
-| Command | Description |
-|----|----|
-| `$ npm run buildTokens` | References JSON files within project and transpiles into CSS/Sass resources per the config file*† |
-
-\* Each JSON file must have an individual config for individual resource building.
-
-† Function is included as part of the `gulp build` and `gulp watch` processes.
-
-| Dependency | Info | Project |
-|---|---|---|
-| Orion Design Tokens | `npm i @alaskaairux/orion-design-tokens` | [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) |
-| Style Dictionary | `npm i style-dictionary` | [npm](https://www.npmjs.com/package/style-dictionary) |
+The use of ODS components requires the use of **Token CSS Custom Properties** and **Token Sass Variables** from the [Auro Design Tokens](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) project.
 
 ## Component CSS
 
@@ -55,14 +36,9 @@ Using [Sass](https://sass-lang.com/) and other techniques makes this undesirable
 |---|---|---|
 | WC Sass Render | `npm i wc-sass-render` | [npm](https://www.npmjs.com/package/wc-sass-render) |
 
-| Command | Description |
-|----|----|
-| `$ npm run sassRender` | Converts CSS or Sass to JavaScript module |
-
-
 ## Accessibility(a11y) testing
 
-The evaluation of a11y is a per-component responsibility. To test a11y performance, please see the [accessibility and testing](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/A11Y.md) documentation.
+The evaluation of a11y is a per-component responsibility. To test a11y performance, please see the [accessibility and testing](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/A11Y.md) documentation.
 
 ## Development, what goes where?
 
@@ -125,7 +101,7 @@ If you do not, then the pre-commit hooks are **not working**. To fix, delete `pa
 
 ## Component Demo
 
-For the purpose of demonstrating an element or component the demo requires all the same dependencies that other projects do. This includes Design Tokens, OWCSS breakpoints; fonts; normalize; baseline and utility classes.
+For the purpose of demonstrating an element or component the demo requires all the same dependencies that other projects do. This includes Design Tokens, WCSS breakpoints; fonts; normalize; baseline and utility classes.
 
 Having these resources as dependencies allows for independent development and release cycles between dependencies and individual components.
 
@@ -144,6 +120,6 @@ See [demo](https://www.webcomponents.org/element/@polymer/iron-icons/demo/demo/i
 
 ##
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>

@@ -1,15 +1,15 @@
 # Web Component Polyfill Support
 
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-docs.svg?color=orange)
+
 HTML custom elements and and litElement are not supported by legacy browsers, especially anything in the IE family of browsers.
 
-The Orion Web Components take a two-step process to support legacy browsers.
+The Auro Web Components take a two-step process to support legacy browsers.
 
 1. Each component package comes with CSS fallbacks
 2. The project needs to test for custom element support and apply the appropriate polyfills
 
-In regards to the polyfills, Polymer, and by extension litElement, address many of these issues. But there are a few additional polyfills needed based on the browser.
-
-The best way to address this is by one of the following.
+A way to address this is by one of the following.
 
 1. Load the `webcomponents-loader.js` via CDN
 2. Load the `webcomponents-loader.js` internally with the project
@@ -56,6 +56,6 @@ import ('@webcomponents/webcomponents.js').then(() => {
 
 ##
 <footer>
-Alaska Airlines Orion Design System<br>
+Alaska Airlines Auro Design System<br>
 Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
 </footer>
