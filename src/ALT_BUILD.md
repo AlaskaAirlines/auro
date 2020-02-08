@@ -1,6 +1,6 @@
 # Alternate build solutions
 
-<span style="color: red; font-weight: bold">DEPRECATED:</span> use light DOM component if available.
+##### DEPRECATED: use light DOM component if available.
 
 This process has been deprecated as all components are moving to support light DOM versions as well as shadow DOM versions.
 
@@ -8,7 +8,7 @@ Why would you need this? With all Orion custom elements the CSS for the element 
 
 This resource is built via a build process and not heavily tested. If there are issues, please submit an issue ticket with the repo for resolution.
 
-<span style="color: red; font-weight: bold">Use with caution</span>
+##### Use with caution
 
 ## The code
 
