@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.1.1](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.1.0...v1.1.1) (2020-02-08)
+
+
+### Bug Fixes
+
+* content updates ([82a8dbb](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/commit/82a8dbb))
+
 # [1.1.0](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.0.7...v1.1.0) (2020-01-13)
 
 
