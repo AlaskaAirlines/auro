@@ -119,6 +119,14 @@
     ]
   },
   {
+    "name": "Type: Content/data",
+    "color": "0074c8",
+    "description": "Adding or editing new content or data to the repo",
+    "aliases": [
+      "enhancement"
+    ]
+  },
+  {
     "name": "Type: Documentation",
     "color": "0074c8",
     "description": "Documentation only changes",
