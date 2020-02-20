@@ -53,6 +53,11 @@
     ]
   },
   {
+    "name": "Status: Approved for work",
+    "color": "00807d",
+    "description": "Proposal has been approved for development (issues only)"
+  },
+  {
     "name": "Status: Blocked",
     "color": "df0b37",
     "description": "Progress on the issue is Blocked",
