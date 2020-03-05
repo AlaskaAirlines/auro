@@ -118,9 +118,14 @@ The use-case for Stencil is mainly with React devs that are interested in preser
 
 Stencil.js also provides paid-for tooling that allows developers to wrap their web component code into React components that allow integration the 'React way' into their apps.
 
-When looking at Alaska Airlines' current state of code and developer scenarios, going to something like Stencil.js seemed unnecessary as we do not have a large library of React UIs that need to carry over. The complexity of the Orion Design System at this time does not require such tooling that something like SaleForce's solution would be massive over-engineering.
+When looking at Alaska Airlines' current state of code and developer scenarios, going to something like Stencil.js seemed unnecessary as we do not have a large library of React UIs that need to carry over. The complexity of the Auro Design System at this time does not require such tooling that something like SaleForce's solution would be massive over-engineering.
 
 Fact: building web components with vanilla JS is hard. Annoyingly hard. That brings us to lit-html and litElment. These libraries are small enough and can be individually cached with any site. Given these loaded libraries, developers at Alaska can build a vast array of web components in a style that is easier read and simpler to maintain.
+
+Examples of other libraries using litElement are
+
+1. https://component.kitchen/elix
+1. https://github.com/material-components/material-components-web-components
 
 <a id="resources"></a>
 ## Resources

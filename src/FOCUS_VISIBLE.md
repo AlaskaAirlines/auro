@@ -34,9 +34,9 @@ The polyfill has been tested in a number of situations and has great support fro
 
 ### How to use
 
-The [focus visible](https://www.npmjs.com/package/focus-visible) npm package is a peer dependency with all Orion UI and its components. Ensuring that focus-visible is loaded with your project's javascript is the only primary dependency.
+The [focus visible](https://www.npmjs.com/package/focus-visible) npm package is a peer dependency with all Auro UI and its components. Ensuring that focus-visible is loaded with your project's javascript is the only primary dependency.
 
-Within any web core or custom element CSS, the use of this feature requires use of the `.focus-visible` selector, NOT `:focus`. In fact, within [Orion](https://github.com/AlaskaAirlines/OrionWebCoreStyleSheets/blob/master/src/_baselineLTE.scss) the default `:focus` state is removed from all browsers allowing for the `.focus-visible` selector manage the interaction.
+Within any web core or custom element CSS, the use of this feature requires use of the `.focus-visible` selector, NOT `:focus`. In fact, within [Auro](https://github.com/AlaskaAirlines/OrionWebCoreStyleSheets/blob/master/src/_baselineLTE.scss) the default `:focus` state is removed from all browsers allowing for the `.focus-visible` selector manage the interaction.
 
 ### Focus visible and custom elements
 

@@ -22,15 +22,15 @@ For any submission to the design system to be accepted, this contribution must m
 
 #### General Engineering Criteria
 
-- [ ] All functionality must meet minimal automated testing standards
+- [ ] All functionality must meet minimal automated testing standards
     - Unit, acceptance, and integration tests added
     - No performance degradation
     - Logging, monitoring, and alerting are in place and up to date
-- [ ] Work has been approved via techniocal peer review on new feature branch (Two sets of eyes on all code)
-- [ ] Design has been consulted prior to any peer review submission (Final design review with designer)
+- [ ] Work has been approved via techniocal peer review on new feature branch (Two sets of eyes on all code)
+- [ ] Design has been consulted prior to any peer review submission (Final design review with designer)
 - [ ] Must meet all accessibility standards (All guest-facing and employee-facing experiences are accessible)
 - [ ] The change has a story, the commit comments reference the story and the change is recorded
-- [ ] Must comply with the internal OSS Secure Software Development Standard
+- [ ] Must comply with the internal OSS Secure Software Development Standard
 
 #### General Business Criteria
 
