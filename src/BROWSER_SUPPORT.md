@@ -1,6 +1,6 @@
 # Auro Web Component Browser Support
 
-Orion Stateless components are developed to be compliant with Alaska Airlines' browser support matrix as published at the time of this project's publication.
+Auro Web components are developed to be compliant with Alaska Airlines' browser support matrix as published at the time of this project's publication.
 
 If at any such time it is discovered that there is an issue with this component's support of any popular browser in use, please submit an issue and explain the discovered issue to the best of your ability.
 

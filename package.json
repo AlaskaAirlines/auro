@@ -1,11 +1,11 @@
 {
-  "name": "@alaskaairux/ods-docs",
+  "name": "@alaskaairux/auro-docs",
   "version": "1.1.2",
-  "description": "Orion Design System global docs",
+  "description": "Auro Design System global docs",
   "author": "Product design and research",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlaskaAirlines/OrionStatelessComponents__docs"
+    "url": "https://github.com/AlaskaAirlines/auro_docs"
   },
   "main": "docs/",
   "license": "Apache-2.0",
@@ -72,8 +72,8 @@
   ],
   "keywords": [
     "alaska airlines",
-    "orion design system",
+    "design system",
     "web components",
-    "hyperlink"
+    "docs"
   ]
 }
