@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.2.0](https://github.com/AlaskaAirlines/auro_docs/compare/v1.1.2...v1.2.0) (2020-03-05)
+
+
+### Features
+
+* multiple content edits, add new New WC issue option ([f012676](https://github.com/AlaskaAirlines/auro_docs/commit/f012676)), closes [#8](https://github.com/AlaskaAirlines/auro_docs/issues/8) [#9](https://github.com/AlaskaAirlines/auro_docs/issues/9)
+
 ## [1.1.2](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.1.1...v1.1.2) (2020-02-20)
 
 
