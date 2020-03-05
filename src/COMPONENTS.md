@@ -28,12 +28,13 @@ AuroWeb Components are a collection of Web Components maintained by Alaska Airli
 | [ods-inputtext](https://github.com/AlaskaAirlines/OrionStatelessComponents__ods-inputtext) | [![Build Status](https://travis-ci.org/AlaskaAirlines/OrionStatelessComponents__ods-inputtext.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/OrionStatelessComponents__ods-inputtext) | ![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/ods-inputtext.svg?color=orange) | [issues](https://github.com/AlaskaAirlines/OrionStatelessComponents__ods-inputtext/issues) |
 
 
-### Planned components 
+### Proposed components
 
 The following web components are proposed for discovery and design
 
-| Component | Status | Release | Issues |
-|---|---|---|---|
+| Component | Proposal | Status |
+|---|---|---|
+| modal | [proposal](https://github.com/AlaskaAirlines/auro_docs/issues/11) | In review |
 
 
 
