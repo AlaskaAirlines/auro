@@ -32,9 +32,9 @@ AuroWeb Components are a collection of Web Components maintained by Alaska Airli
 
 The following web components are proposed for discovery and design
 
-| Component | Proposal | Status |
+| Component | Issue | Status |
 |---|---|---|
-| modal | [proposal](https://github.com/AlaskaAirlines/auro_docs/issues/11) | In review |
+| modal | [#11](https://github.com/AlaskaAirlines/auro_docs/issues/11) | Proposal |
 
 
 
