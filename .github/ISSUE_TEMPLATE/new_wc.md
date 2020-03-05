@@ -29,11 +29,11 @@ assignees: blackfalcon
 
 > If YES to the question above, please list all URLs to prior art and/or attach screen shots for review.
 
-## Working agreement
+## Agreement
 
-By checking the box below you acknowledge that you have read and fully comply with the [working agreement](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/WORKING_AGREEMENT.md) criteria.
+By checking the box below I acknowledge that the proposed web component does not duplicate any existing feature or functionality within the Auro Design System. The proposal is requesting support for a feature that is currently not supported.
 
-[ ] I certify that the working proposal set forth is in compliance with the Auro working agreement.
+- [ ] I certify that this proposal does not replicate any existing design or functionality.
 
 ## Additional context
 
