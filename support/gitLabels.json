@@ -102,7 +102,7 @@
     "description": "Lacks enough info to make progress"
   },
   {
-    "name": "Status: Ready to Merge",
+    "name": "Status: Complete / Ready to Merge",
     "color": "00805d",
     "description": "Owner has completed work"
   },
