@@ -28,6 +28,12 @@ If the use of a status required feedback, please be sure to add a comment to the
 
 If the status is time specific, as in `help wanted`, `need more info` or `blocked`, please be sure to remove this label once the issue has been resolved. 
 
+#### Status: Complete / Ready to Merge
+
+The status of `Status: Complete / Ready to Merge` is NOT an indicator that the PR is closed and should be merged. 
+
+This 
+
 ### Type
 
 The use of type labels really help others at a quick glance see what type of work is being done. This will also help produce reports later as well. 

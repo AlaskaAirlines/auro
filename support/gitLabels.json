@@ -2,12 +2,12 @@
   {
     "name": "duplicate",
     "color": "fff0cd",
-    "description": "This issue or Pull Request already exists"
+    "description": "This Issue or Pull Request already exists"
   },
   {
     "name": "help wanted",
     "color": "8439ef",
-    "description": "Extra attention is needed"
+    "description": "Extra attention is needed, this user requires assistance to complete the work"
   },
   {
     "name": "good first issue",
@@ -34,11 +34,6 @@
     "description": "Issues that need attention soon"
   },
   {
-    "name": "Priority: Medium",
-    "color": "ffd200",
-    "description": "Issues that need attention as possible"
-  },
-  {
     "name": "Priority: Low",
     "color": "c0e585",
     "description": "Issues that need not be forgotten"
@@ -60,20 +55,20 @@
   {
     "name": "Status: Blocked",
     "color": "df0b37",
-    "description": "Progress on the issue is Blocked",
+    "description": "Progress on the issue is Blocked, immediate attention is required",
     "aliases": [
       "blocked"
     ]
   },
   {
     "name": "Status: Work In Progress",
-    "description": "Work in Progress",
+    "description": "Issue or Pull Request work is in Progress",
     "color": "fff0cd"
   },
   {
     "name": "Status: Proposal",
     "color": "0074c8",
-    "description": "Request for comments",
+    "description": "This is a proposed question or solution, the user is requesting feedback",
     "aliases": [
       "idea",
       "Idea",
@@ -85,7 +80,7 @@
   {
     "name": "Status: PR Welcome",
     "color": "8439ef",
-    "description": "Welcome to Pull Request",
+    "description": "Assigned to issues, requesting general public support",
     "aliases": [
       "Patch Welcome",
       "Status: Ready for PR"
@@ -94,22 +89,17 @@
   {
     "name": "Status: Review Needed",
     "color": "0074c8",
-    "description": "Request for review comments"
-  },
-  {
-    "name": "Status: Need More Info",
-    "color": "0074c8",
-    "description": "Lacks enough info to make progress"
+    "description": "Work is completed, user is requesting feeback"
   },
   {
     "name": "Status: Complete / Ready to Merge",
     "color": "00805d",
-    "description": "Owner has completed work"
+    "description": "Owner has completed work and considers it ready to be merged"
   },
   {
     "name": "Type: Breaking Change",
     "color": "de750c",
-    "description": "Includes breaking changes",
+    "description": "Includes breaking changes, will require MAJOR version release",
     "aliases": [
       "breaking",
       "breaking-change"
