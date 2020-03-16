@@ -18,6 +18,7 @@ All information regarding Project Setup, Technical Details, Tests and informatio
 * [focus-visible](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/FOCUS_VISIBLE.md)
 * [is-touching](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/IS_TOUCHING.md)
 * [Labels: how to use them best](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/LABELS.md)
+* [Project management](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/PROJECTS.md)
 * [Tests](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/TESTS.md)
 * [Why Custom Elements?](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/WHY_CUSTOMELEMENT.md)
 * [Working Agreement](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/WORKING_AGREEMENT.md)
