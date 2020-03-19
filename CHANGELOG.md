@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.2.2](https://github.com/AlaskaAirlines/auro_docs/compare/v1.2.1...v1.2.2) (2020-03-19)
+
+
+### Bug Fixes
+
+* grammatical errors ([6a89e7f](https://github.com/AlaskaAirlines/auro_docs/commit/6a89e7f))
+
 ## [1.2.1](https://github.com/AlaskaAirlines/auro_docs/compare/v1.2.0...v1.2.1) (2020-03-05)
 
 
