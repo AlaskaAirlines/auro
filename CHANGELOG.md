@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [1.2.3](https://github.com/AlaskaAirlines/auro_docs/compare/v1.2.2...v1.2.3) (2020-03-20)
+
+
+### Bug Fixes
+
+* [#28](https://github.com/AlaskaAirlines/auro_docs/issues/28) add governance model and dispute docs ([fc9cfcb](https://github.com/AlaskaAirlines/auro_docs/commit/fc9cfcb))
+
 ## [1.2.2](https://github.com/AlaskaAirlines/auro_docs/compare/v1.2.1...v1.2.2) (2020-03-19)
 
 
