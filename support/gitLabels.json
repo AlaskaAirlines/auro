@@ -10,6 +10,11 @@
     "description": "Extra attention is needed, this user requires assistance to complete the work"
   },
   {
+    "name": "released",
+    "color": "A9A9A9",
+    "description": "Completed work has been released"
+  },
+  {
     "name": "good first issue",
     "color": "00cff0",
     "description": "Good for newcomers",
@@ -59,6 +64,11 @@
     "aliases": [
       "blocked"
     ]
+  },
+  {
+    "name": "Starus: In discovery",
+    "color": "8439ef",
+    "description": "New work that is still in a discovery phase"
   },
   {
     "name": "Status: Work In Progress",
