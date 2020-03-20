@@ -20,6 +20,7 @@ All information regarding Project Setup, Technical Details, Tests and informatio
 * [Labels: how to use them best](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/LABELS.md)
 * [Project management](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/PROJECTS.md)
 * [Tests](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/TESTS.md)
+* [Training](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/training/README.md)
 * [Why Custom Elements?](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/WHY_CUSTOMELEMENT.md)
 * [Working Agreement](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/WORKING_AGREEMENT.md)
 
