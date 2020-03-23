@@ -2,7 +2,7 @@
 name: Component Request
 about: Request new Web Compomnent work
 title: ''
-labels: 'Status: Proposal'
+labels: 'Status: In discovery'
 assignees: blackfalcon
 
 ---
