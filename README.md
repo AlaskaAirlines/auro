@@ -16,13 +16,14 @@ All information regarding Project Setup, Technical Details, Tests and informatio
 * [Custom element polyfill](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/POLYFILL.md)
 * [Custom element technical details](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/TECH_DETAILS.md)
 * [focus-visible](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/FOCUS_VISIBLE.md)
+* [Governance](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/GOVERNANCE.md)
 * [is-touching](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/IS_TOUCHING.md)
 * [Labels: how to use them best](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/LABELS.md)
+* [Process criteria](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/PROCESS_CRIT.md)
 * [Project management](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/PROJECTS.md)
 * [Tests](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/TESTS.md)
 * [Training](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/training/README.md)
 * [Why Custom Elements?](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/WHY_CUSTOMELEMENT.md)
-* [Working Agreement](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/WORKING_AGREEMENT.md)
 
 
 ##
