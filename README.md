@@ -10,6 +10,7 @@ All information regarding Project Setup, Technical Details, Tests and informatio
 * [Alternate custom element CSS build](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/ALT_BUILD.md)
 * [Babel support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/BABEL_SUPPORT.md)
 * [Browser support](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/BROWSER_SUPPORT.md)
+* [WHat is an Auro Champion?](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/CHAMPIONS.md)
 * [Components](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/COMPONENTS.md)
 * [Contributing](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/CONTRIBUTING.md)
 * [CSS custom properties(CSS variables)](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/CUSTOM_PROPERTIES.md)
