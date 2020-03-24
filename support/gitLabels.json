@@ -71,6 +71,11 @@
     "description": "New work that is still in a discovery phase"
   },
   {
+    "name": "Status: Design in progress",
+    "color": "c0e585",
+    "description": "Design work is in progress"
+  },
+  {
     "name": "Status: Work In Progress",
     "description": "Issue or Pull Request work is in Progress",
     "color": "fff0cd"
