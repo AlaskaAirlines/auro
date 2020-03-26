@@ -56,3 +56,20 @@ The use of type labels is to help others get a glance to see what type of work i
 Please be sure to review all the type options so that they are used correctly.
 
 Every issue and pull request should have a Type label.
+
+### Sizing
+
+The use of Sizing labels helps other quickly see what the perceived effort for delivering a work item is. The sizing model used with Auro could be described as a variation on the T-Shirt sizing model. Sizes fall within the scale of SMALL, MEDIUM, LARGE and X-LARGE.
+
+* Small: Easily delivered work, low risk, low effort
+* Medium: Delivery requires attention, medium risk on delivery
+* Large: This is a sizable load of work to deliver and tough to break up. Risk is not equated to volume
+* X-Large: Woah! Really? This is too large to deliver in a single PR and is super risky!
+
+When a task is labeled with `X-Large` this is considered a RED FLAG and the request MUST be broken into smaller chunks of work that can be individually reviewed if not individually delivered.
+
+#### Type: High Risk
+
+Risk is not always associated to size. For example, a task my have a very low amount of work to be done, but this work, when released, carries a high risk of potential issues.
+
+In these cases where a task is considered more risky than others, please add this label.

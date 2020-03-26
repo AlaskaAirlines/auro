@@ -204,5 +204,30 @@
     "aliases": [
       "dependencies"
     ]
+  },
+  {
+    "name": "Type: High Risk",
+    "color": "FF0000",
+    "description": "Work is high risk, pay close attention to updates and tests"
+  },
+  {
+    "name": "Size: X-Large",
+    "color": "FF3300",
+    "description": "Woah! Really? This is too large to deliver in a single PR and is super risky!"
+  },
+  {
+    "name": "Size: Large",
+    "color": "FFCC00",
+    "description": "This is a sizable load of work to deliver and tough to break up. Risk is not equated to volume."
+  },
+  {
+    "name": "Size: Medium",
+    "color": "FFFF00",
+    "description": "Delivery requires attention, medium risk on delivery"
+  },
+  {
+    "name": "Size: Small",
+    "color": "00FF00",
+    "description": "Easily delivered work, low risk, low effort"
   }
 ]
