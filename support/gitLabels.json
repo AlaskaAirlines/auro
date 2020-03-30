@@ -54,7 +54,7 @@
   },
   {
     "name": "Status: Approved for work",
-    "color": "00807d",
+    "color": "32CD32",
     "description": "Proposal has been approved for development (issues only)"
   },
   {
@@ -108,7 +108,7 @@
   },
   {
     "name": "Status: Complete / Ready to Merge",
-    "color": "00805d",
+    "color": "228B22",
     "description": "Owner has completed work and considers it ready to be merged"
   },
   {
