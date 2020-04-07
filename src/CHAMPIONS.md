@@ -25,7 +25,3 @@ Other than that, a Github account really helps too.
 Outside of your passion for this problem, not much else will be asked of you. The group will meet every so often, but for the most part, what we desire the most is your feedback. This can come in the form of direct communication, starting a thread on Github, or a general all-hands meeting.
 
 Contributing actual work is not a requirement. But if you see an opportunity to add value to the Auro project, we, by all means, encourage you to do so!
-
-## How can I join?
-
-Easy, simply go to the [List of Champions](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/LIST_OF_CHAMPIONS.md) page and add your name and Github alias to the list.
