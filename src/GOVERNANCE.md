@@ -1,12 +1,20 @@
 # Auro Governance Working Agreement
 
-The Auro Governance Working Agreement is mainly an agreed-upon process for when and how new assets will be added to the Auro Design System.
+The Auro Governance Working Agreement is an agreed-upon process for when and how new or updated assets will be added to the Auro Design System.
+
+An important, and easily overlooked part of this process is new component discovery. How is new work discovered? Does it happen in wireframing, discovery, research, or the design phase? There is no one right answer for every team, or every designer, but the answer typically falls into the understanding of reuse and consistency.
+
+> “Reusable components increase consistency, improve design productivity, reduce (or even eliminate) subsequent implementation time ... You can establish a modular design by creating sensible boundaries between each component, and then recombining them over and over in systematic ways.”
+
+-- Nathan Curtis, Modular Web Design
+
+Below you'll find a detailed description of the working agreement, followed by a flow chart to help you visualize the process.
 
 ## New work discovered
 
 Within the scope of a Product Team, new work is created. Engineers and Product designers will review the specification of the feature and determine where new work must happen.
 
-In regards to design, the Product Designer will look to the Auro Design System for opportunities of use.
+In regard to design, the Product Designer will look to the Auro Design System for opportunities of use.
 
 ## Does a component exist?
 
@@ -14,7 +22,7 @@ At this point, the Product Team is looking to the Auro Design System for assets 
 
 #### YES - there is an existing component
 
-Yes, there is an existing asset that can be used, but **does it meet their requirements**?
+Yes, but **does it meet their requirements**?
 
 * **YES** - then the team can get to work without additional effort.
 * **NO** - then the Product Team will propose either a new component or an update to an existing component.
@@ -25,18 +33,20 @@ From the Product Team's research, there is not an available asset for their use,
 
 ### Propose new work to the Design System team
 
+It is recommended that the Product Team reach out directly to the Auro Team to discuss available options. It is suggested that the Product Team schedule a meeting via the public Auro Teams Channel.
+
 At this step, the idea is to better understand the requirements of the Product Team. There may be an opportunity to leverage other assets that the Product Team did not see as opportunities. There may also be an opportunity here to extend the functionality of an existing component to meet the Product Team's requirements.
 
 If the determination is that no additional work needs to happen, the Product Team can move forward leveraging existing assets.
 
 If it is determined that new work is to happen, **is the new work unique to this team**?
 
-* **YES** - If the determination is that the work needed by the Product Team is not feasible to be added to existing assets or the new work is considered a value add to the Design System, then the Product Team is encouraged to move forward and deliver a solution that is unique to their project.
+* **YES** - If the determination is that the work needed by the Product Team is not feasible to be added to existing assets or the new work is not considered a value add to the Design System, then the Product Team is encouraged to move forward and deliver a solution that is unique to their project.
 * **NO** - This determination means that this work is considered best included with the Auro Design System and work is to be added to the Design System backlog.
 
 ## Design System Backlog
 
-Once all the previous steps have been completed and all discussions have been had between the Product Team and the Auro Design System team, the new work can be written up and added to the Design System backlog.
+Once all the previous steps have been completed and all discussions have been had between the Product Team and the Auro Design System team, the new work can be written up and prioritized in the Auro Design System backlog.
 
 ### Design and Product collaborate
 
@@ -50,7 +60,7 @@ Depending on the scope of the work and available resources the work may be:
 
 * 100% addressed by the Auro team,
 * the work could be divided between teams,
-* the work maybe 100% addressed by the Product team with oversight of the Auro team.
+* the work maybe 100% addressed by the Product team with support from the Auro team.
 
 This phase is considered complete once a new design specification asset has been produced and there is a coded version of the design spec is prepared for review.
 
@@ -60,11 +70,11 @@ In this phase, the work from the previous phase is carefully reviewed by designe
 
 This process includes:
 
-* A Sr. Designer and an Auro engineer ensure that the delivered assets meet the specification outlined in the previous steps of the process.
-* Design asset is reviewed by a Sr. Designer to ensure that the asset is compliant with the standards set forth.
+* A designer and an Auro engineer ensure that the delivered assets meet the specification outlined in the previous steps of the process.
+* Design asset is reviewed by a UI designer to ensure that the asset is compliant with the standards set forth.
 * The code is reviewed by an engineer on the Auro team to ensure that all work is compliant with the standards set forth.
 
-It is also the responsibility of the reviewers to ensure that the new work lives up to the [quality threshold determined by the Auro Design System](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/WORKING_AGREEMENT.md).
+It is also the responsibility of the reviewers to ensure that the new work lives up to the [quality threshold determined by the Auro Design System](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/PROCESS_CRIT.md).
 
 This part of the process answers the question; **Does the demo pass review**?
 
@@ -87,12 +97,13 @@ This is the RELEASE or DELIVERY phase of the work. Here it has been determined t
 
 ### Designers and devs use the new asset
 
-Once all the new work has been published, it is now officially in the hands of the designers and engineers to use. It is with active use that any edge cases not discovered during the design and development process will the discovered.
+Once all the new work has been published, it is now officially in the hands of the designers and engineers to use. It is with active use that any edge cases not discovered during the design and development process will issues be discovered.
 
 As these edge cases are discovered it is to be determined whether the discovery is **considered a new feature or a bug**.
 
 * **BUG**. An issue is submitted with all the necessary details and the label of BUG and is given top priority to address.
 * **NEW FEATURE**. An issue is submitted with a feature request and proposed solution. The new feature will be reviewed by the Auro team and in coordination with the submitter determine appropriate timelines for work.
+
 
 
 
