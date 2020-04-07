@@ -28,4 +28,4 @@ Contributing actual work is not a requirement. But if you see an opportunity to 
 
 ## How can I join?
 
-Easy, simply go to the [List of Champions]((https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/LIST_OF_CHAMPIONS.md) page and add your name and Github alias to the list.
+Easy, simply go to the [List of Champions](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/LIST_OF_CHAMPIONS.md) page and add your name and Github alias to the list.
