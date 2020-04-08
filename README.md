@@ -23,7 +23,9 @@ All information regarding Project Setup, Technical Details, Tests and informatio
 #### Procedural resources
 
 * [Auro Champions](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/CHAMPIONS.md)
+* [Compliance model](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/COMPLIANCE.md)
 * [Contributing](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/CONTRIBUTING.md)
+* [Dispute management](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/DISPUTE_MANAGEMENT.md)
 * [Governance](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/GOVERNANCE.md)
 * [Labels: how to use them best](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/LABELS.md)
 * [Process criteria](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/PROCESS_CRIT.md)
