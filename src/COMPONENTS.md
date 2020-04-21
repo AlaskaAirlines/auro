@@ -43,12 +43,16 @@ The following lists are of tools and components currently queued up on the Auro 
 |---|---|---|
 |[Basic data table #18](https://github.com/AlaskaAirlines/auro_docs/issues/18)|Design|Sprint 11|
 |[Tab button, tab strip, tabs #13](https://github.com/AlaskaAirlines/auro_docs/issues/13)|Design|Sprint 11|
-|[Alerts #17](https://github.com/AlaskaAirlines/auro_docs/issues/17)|Discovery| Sprint 12|
+|[Alerts #17](https://github.com/AlaskaAirlines/auro_docs/issues/17)|Discovery| Sprint 11|
 |[Date formatting #6](https://github.com/AlaskaAirlines/ods-inputtext/issues/6)|Discovery| Sprint 12|
-|[Modal / dialog #11](https://github.com/AlaskaAirlines/auro_docs/issues/11)|Discovery| Sprint 13|
-|[Menu #12](https://github.com/AlaskaAirlines/auro_docs/issues/12)|Discovery| Sprint 14|
-|[Accordion #16](https://github.com/AlaskaAirlines/auro_docs/issues/16)|Discovery| Sprint 15|
-
+|[Modal / dialog #11](https://github.com/AlaskaAirlines/auro_docs/issues/11)|Discovery| Sprint 12|
+|[Menu #12](https://github.com/AlaskaAirlines/auro_docs/issues/12)|Discovery| Sprint 12|
+|[Accordion #16](https://github.com/AlaskaAirlines/auro_docs/issues/16)|Discovery| Sprint 13|
+|[Card #20](https://github.com/AlaskaAirlines/auro_docs/issues/20)|Discovery|Sprint 13|
+|[Toast #21](https://github.com/AlaskaAirlines/auro_docs/issues/21)|Discovery|Sprint 13|
+|[Toggle / switch #14](https://github.com/AlaskaAirlines/auro_docs/issues/14)|Discovery|Sprint 14|
+|[Receipt #53](https://github.com/AlaskaAirlines/auro_docs/issues/53)|Discovery|Sprint 14|
+|[Tooltop / popover #22](https://github.com/AlaskaAirlines/auro_docs/issues/22)|Discovery|Sprint 14|
 
 ### Currently Proposed components
 
@@ -56,15 +60,12 @@ The following is a list of all proposed web components currently proposed for di
 
 |Component|Status|Planned work release|
 |---|---|---|
-|[Card #20](https://github.com/AlaskaAirlines/auro_docs/issues/20)|Discovery|TBD|
-|[Receipt #53](https://github.com/AlaskaAirlines/auro_docs/issues/53)|Discovery|TBD|
-|[Tooltop / popover #22](https://github.com/AlaskaAirlines/auro_docs/issues/22)|Discovery|TBD|
 |[Drawer #15](https://github.com/AlaskaAirlines/auro_docs/issues/15)|Discovery|TBD|
 |[Breadcrumbs #19](https://github.com/AlaskaAirlines/auro_docs/issues/19)|Discovery|TBD|
 |[Auro button to support icons #54](https://github.com/AlaskaAirlines/ods-button/issues/54)|Discovery|TBD|
 |[Linear-progress bar #23](https://github.com/AlaskaAirlines/auro_docs/issues/23)|Discovery|TBD|
-|[Toggle / switch #14](https://github.com/AlaskaAirlines/auro_docs/issues/14)|Discovery|TBD|
-|[Toast #21](https://github.com/AlaskaAirlines/auro_docs/issues/21)|Discovery|TBD|
+
+
 
 
 See the full listing in [Github Project](https://github.com/AlaskaAirlines/auro_docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22Status%3A+In+discovery%22) for a real-time view of proposed components.
