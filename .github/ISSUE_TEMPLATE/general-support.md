@@ -9,7 +9,7 @@ assignees: blackfalcon
 
 # General Support Request
 <!---  The scope of this request is to neither communicate a bug or feature request.  -->
-<!---  If this is a bug or feature request, please close this issue and reference the previous templates.  -->
+<!---  If this is a bug or feature request, please close this issue and reference the previus templates.  -->
 
 ## Support request
 <!--- Please describe the issue you are reporting -->
