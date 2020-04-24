@@ -56,7 +56,8 @@ WC-Generator/template
 |  ├── index.html
 |  └── sass
 |     └── style.scss
-├── gulpfile.js
+├── docs
+|  └── index.html
 ├── index.html
 ├── index.js
 ├── karma.conf.js
@@ -65,31 +66,30 @@ WC-Generator/template
 |  └── postinstall.js
 ├── polymer.json
 ├── scripts
-|  ├── componentConfig.json
-|  ├── componentConfigDist.json
-|  ├── tokenConfig.json
-|  ├── tokenScript.js
-|  └── tokenScriptCustom.js
+|  ├── polyfills.js
+|  ├── postCss.js
+|  └── postinstall.js
 ├── src
-|  ├── auro-[name].js
-|  ├── shape.json
+|  ├── [namespace]-[name].js
 |  └── style.scss
 └── test
-   └── auro-[name].test.js
+   └── [namespace]-[name].test.js
 ```
 
 **./demo**: The purpose of this directory is to produce a demo page for development and review. Updates would include editing the `./demo/index.html` and `./demo/sass/style.scss` documents.
 
-**./docs**: If there are additional documents per your new custom element, please place all Markdown files in the `./docs` directory.
+**./docs**: The `index.html` in this directory is pre-configured to be a pre-bundled asset demo page. See below for more instructions. 
 
-**./scripts**: This directory is NOT to be used for any component specific code. This directory is specifically for the Polymer Development environment only.
+**./packageScripts**: If there are scripts that needs to ship with the component, place them here and configure the `distJS` script to copy over any needed assets. 
+
+**./scripts**: This directory is NOT to be used for any component specific code. This directory is specifically for the local development environment only.
 
 **./src**: Your new web component will be developed inside a Polymer Development Environment, so all the code that pertains specifically to your new web component will live in the `./src` directory. Javascript, JSON and Sass will all need to be placed ONLY in the `./src` directory. If placed anywhere else, this will cause issues with the packing process.
 
-**./test**: Location for all component related test files. 
+**./test**: Location for all component related test files.
 
 
-## Component Demo
+## Polymer Component Demo
 
 For the purpose of demonstrating an element or component the demo requires all the same dependencies that other projects do. This includes Design Tokens, WCSS breakpoints; fonts; normalize; essential and utility classes.
 
@@ -99,8 +99,43 @@ The best way to address this within demos per element or component is to have a 
 
 WCSS resources have a dependency on Sass variables while components use [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). It is important to have both these files generated and used in a project.
 
+## Pre-compiled demo
 
-### Iron icons for demo/index.html
+Part of the WC build system is creating pre-bundled assets that are IE11 compatible. To run the view for this, run the server command, 
+
+```
+$ npm run bundle:test
+```
+
+This will bundle the component and it's dependencies and start a server on `localhost:3000`. The code for this view is located in `./docs/index.html`. 
+
+With the initial generation of assets, this template view will contain the following code. 
+
+The stylesheet links will be updates with the most recent versions of Design Tokens and WCSS. 
+
+```html
+<div id="assets">
+  <link rel="stylesheet" href="https://unpkg.com/@alaskaairux/orion-design-tokens@[designTokens]/dist/tokens/CSSCustomProperties.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@alaskaairux/orion-web-core-style-sheets@[wcss]/dist/bundled/essentials.css" />
+
+  <!-- for initial build and test only -->
+  <script src="../dist/polyfills.js"></script>
+  <script src="../dist/[namespace]-[name]__bundled.js"></script>
+
+  <!-- once first build has been released, update with the links below -->
+  <!-- Be sure to update the :version number -->
+  <!-- <script src="https://unpkg.com/@alaskaairux/[namespace]-[name]@:version/dist/polyfills.js"></script>
+  <script src="https://unpkg.com/@alaskaairux/[namespace]-[name]@:version/dist/[namespace]-[name]__bundled.js"></script> -->
+</div>
+```
+
+Once the new WC is ready for distribution, the code that is referencing the local polyfill and bundled JS should be updated with the lines that are commented out. 
+
+These lines will be updated with the namespace and name of the new component, but the `:version` will need to be updated with the new WC version number. 
+
+With this in place and referencing published assets, the Github repo can be configured to use the `./docs.index.html` file for a `https://alaskaairlines.github.io/` page. 
+
+## Iron icons for demo/index.html
 
 `iron-icons` is a Polymer utility that includes definition for the `iron-iconset-svg` element, as well as an import for the default icon set.
 
