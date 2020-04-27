@@ -36,6 +36,7 @@ The following are good status types to use for issues.
 * Status: Proposal (idea or suggestion)
 * Status: Work In Progress (add when work has started)
 * Status: PR Welcome (asking for help to solve)
+* Status: Complete / Ready to Merge†† (when work is considered completed by the submitter)
 
 #### Pull request statuses
 
@@ -45,7 +46,7 @@ The following is a list of status types to use with pull requests
 * Status: Review Needed (requesting PR feedback)
 * Status: Complete / Ready to Merge†† (when work is considered completed by the submitter)
 
-†† The status of `Status: Complete / Ready to Merge` is NOT an indicator that the PR is closed and should be merged. The purpose of this status is to announce that the dev who submitted the PR considered this work complete and 'ready to merge'.
+†† The status of `Status: Complete / Ready to Merge` is to announce that the dev who submitted the PR considered this work complete and 'ready to merge'.
 
 All PRs require official APPROVAL before merging.
 

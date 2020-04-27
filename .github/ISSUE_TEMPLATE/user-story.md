@@ -13,7 +13,7 @@ As a [persona], I want to be able to [intent, not feature(s)], so I can [describ
 
 ## Outline subtasks or tasks
 
-> Decide which specific steps need to be completed and who is responsible for each of them.
+> List specific steps required to deliver this work.
 
 - [ ] ...
 - [ ] ...
@@ -23,3 +23,11 @@ As a [persona], I want to be able to [intent, not feature(s)], so I can [describ
 ## Definition of “Done” (exit criteria)
 
 > The story is generally “done” when the user can complete the outlined task, but make sure to define what that is.
+
+<!-- Use the following template for design related exit criteria
+
+- [ ] the documented design spec has been created
+- [ ] assets have been symbolized in the UI toolkit
+- [ ] new UI has been applied to the WC
+
+-->
