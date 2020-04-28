@@ -28,13 +28,15 @@ Alaska Airlines currently supports the following browsers for the delivery of st
 | Feature | Chrome | Opera | Safari | Firefox | Edge (Chrome) | Edge | IE
 |----|----|----|----|----|----|----|----|
 | HTML Templates | Stable | Stable | Stable | Stable | Stable | Stable | Transpiling†/Polyfill* |
-| Custom Elements | Stable | Stable | Stable | Stable | Stable | Polyfill | Transpiling†/Polyfill* |
-| Shadow DOM | Stable | Stable | Stable | Stable | Stable | Polyfill | Transpiling†/Polyfill* |
+| Custom Elements | Stable | Stable | Stable | Stable | Stable | Stable†† | Transpiling†/Polyfill* |
+| Shadow DOM | Stable | Stable | Stable | Stable | Stable | Stable†† | Transpiling†/Polyfill* |
 | ES Modules | Stable | Stable | Stable | Stable | Stable | Stable | Transpiling†/Polyfill* |
 
 [webcomponents.org](https://www.webcomponents.org/)
 
 † Transpiling from ES6 to ES5 is required for browser support. See [Babel Support doc](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/BABEL_SUPPORT.md) for information about Babel configuration support options.
+
+†† This document only considers Microsoft Edge v79 and up. Legacy Edge versions on edgeHTML still require polyfill support.
 
 \* JavaScript polyfills are required in order for these browsers to render Polymer/Lit-element web components. See the [polyfill doc](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/docs/POLYFILL.md) for more information on installment options.
 
