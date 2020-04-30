@@ -44,7 +44,7 @@ The following lists are of tools and components currently queued up on the Auro 
 |[Tab button, tab strip, tabs #13](https://github.com/AlaskaAirlines/auro_docs/issues/13)|Design|Sprint 11|
 
 
-### Currnelty Proposed components
+### Currently Proposed components
 
 The following is a list of all proposed web components currently proposed for discovery.
 
