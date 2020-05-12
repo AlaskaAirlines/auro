@@ -1,3 +1,12 @@
+---
+name: User Story
+about: Crate a new user story for a unit of work
+title: ''
+labels: 'Status: Proposal'
+assignees: blackfalcon
+
+---
+
 # User story
 
 As a [persona], I want to be able to [intent, not feature(s)], so I can [describe benefit].
