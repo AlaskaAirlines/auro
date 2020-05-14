@@ -16,7 +16,7 @@ In web development, we can easily send code to the browser that the browser will
 
 As you can see in the image below, the browser has no understanding of an HTML element called `sticky-note`, but it still renders it without blocking or error.
 
-![browser image of rendered HTML](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/images/sticky-html.png)
+![browser image of rendered HTML](https://raw.githubusercontent.com/AlaskaAirlines/auro_docs/master/src/images/sticky-html.png)
 
 ## Why does this matter?
 
