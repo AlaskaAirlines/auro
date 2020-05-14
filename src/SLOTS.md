@@ -4,22 +4,22 @@
 
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot)
 
-What does this mean and why is this a huge benefit of web components over other JavaScript framework components? To really understand this, you must understand that HTML and browsers in general are based on the principal of [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement). 
+What does this mean and why is this a huge benefit of web components over other JavaScript framework components? To really understand this, you must understand that HTML and browsers in general are based on the principal of [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement).
 
-A principal of progressive enhancement is, regardless of the code pushed to the browser, the browser will render something without breaking or blocking. While this is not specifically true for JavaScript, this is true for HTML and CSS. 
+A principal of progressive enhancement is, regardless of the code pushed to the browser, the browser will render something without breaking or blocking. While this is not specifically true for JavaScript, this is true for HTML and CSS.
 
-In web development, we can easily send code to the browser that the browser will do its best to render, but if it does not know what to do with the code, it simply moves on. For example, if the following code was present in a HTML document and sent to the browser, the browser would simply render the string within. 
+In web development, we can easily send code to the browser that the browser will do its best to render, but if it does not know what to do with the code, it simply moves on. For example, if the following code was present in a HTML document and sent to the browser, the browser would simply render the string within.
 
 ```html
 <sticky-note>This is a reminder: pick up bread and milk from the store</sticky-note>
 ```
 
-As you can see in the image below, the browser has no understanding of an HTML element called `sticky-note`, but it still renders it without blocking or error. 
+As you can see in the image below, the browser has no understanding of an HTML element called `sticky-note`, but it still renders it without blocking or error.
 
-![](images/sticky-html.png)
+![browser image of rendered HTML](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/images/sticky-html.png)
 
-## Why does this matter? 
+## Why does this matter?
 
-A real benefit that Web Components have over any other JavaScript framework is that the author of the UI can use the custom element they created in native HTML, and with use of the `slot` element, the content is clearly visible to the browser without any rendering what so ever. 
+A real benefit that Web Components have over any other JavaScript framework is that the author of the UI can use the custom element they created in native HTML, and with use of the `slot` element, the content is clearly visible to the browser without any rendering what so ever.
 
-It is an important architectural piece of the Web Component development process to place content that is needed to be considered important for SEO be placed within the `<slot> ... </slot>` elements. 
+It is an important architectural piece of the Web Component development process to place content that is needed to be considered important for SEO be placed within the `<slot> ... </slot>` elements.
