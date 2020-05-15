@@ -15,23 +15,23 @@ A term I like to use is a **Pure Selector**. Pure Selectors should **NEVER** hav
 
 ```scss
 .FormGroup {
-  padding: var(--size-padding-medium);
-  margin-bottom: var(--size-margin-small);
+  padding: var(--auro-size-md);
+  margin-bottom: var(--auro-size-sm);
 }
 
 .inputElement {
-  font-size: var(--size-font-base);
-  border: 1px solid var(--color-input-border);
-  padding: var(--size-input-padding-base);
+  font-size: var(--auro-text-body-size-default);
+  border: 1px solid var(--auro-color-ui-default-on-light);
+  padding: var(--auro-size-md);
 }
 
 .inputElement--xxl {
-  font-size: var(--size-font-xxl);
-  padding: var(--size-input-padding-lg);
+  font-size: var(--auro-text-heading-display-size-breakpoint-lg);
+  padding: var(--auro-size-lg);
 }
 
 .FormGroup-inputElement {
-  margin-bottom: var(--size-margin-small);
+  margin-bottom: var(--auro-size-sm);
 }
 ```
 
@@ -39,22 +39,22 @@ A term I like to use is a **Pure Selector**. Pure Selectors should **NEVER** hav
 
 ```scss
 .FormGroup {
-  padding: var(--size-padding-medium);
-  margin-bottom: var(--size-margin-small);
+  padding: var(--auro-size-md);
+  margin-bottom: var(--auro-size-sm);
 
   .inputElement {
-    margin-bottom: var(--size-margin-small);
+    margin-bottom: var(--auro-size-sm);
   }
 }
 
 .inputElement {
-  font-size: var(--size-font-base);
-  border: 1px solid var(--color-input-border);
-  padding: var(--size-input-padding-base);
+  font-size: var(--auro-text-body-size-default);
+  border: 1px solid var(--auro-color-ui-default-on-light);
+  padding: var(--auro-size-md);
 
   &.large {
-    font-size: var(--size-font-xxl);
-    padding: var(--size-input-padding-lg);
+    font-size: var(--auro-text-heading-display-size-breakpoint-lg);
+    padding: var(--auro-size-lg);
   }
 }
 ```
@@ -69,14 +69,19 @@ Shared resources for foundational CSS values
 ```
 {
   "color": {
-    "primary-background": {"value": "#ffffff"}
+    "base": {
+      "white": {
+        "value": "ffffff",
+        "comment": "{comments.color.base.value.comment}"
+      }
+    }
   }
 }
 ```
 
 ## Utility
 
-Universally applicable solution in cases where applying this style is not an appropriate responsibility of another selector. These selectors are typically considered UI trump cards as they will use the `!important` flag. These are last resort DOM utility classes and have cascading effects to be aware of.
+Universally applicable solution in cases where applying this style is not an appropriate responsibility of another selector. These selectors are typically considered UI trump cards as they may use the `!important` flag. These are last resort DOM utility classes and have cascading effects to be aware of.
 
 (may define shape or layout without direct context to any element, component or object)
 
@@ -98,16 +103,16 @@ Universally applicable solution in cases where applying this style is not an app
 
 Naming convention: use camel casing prefixed with the `util_` string
 
-## Element
+## Primitive Component / Element
 
 Any part of a designed/functional [thing - common noun] that cannot independently complete a task
 
-(is essential for the shape of any UI element, does not effect layout outside it’s immediate context)
+(is responsible for the shape of any UI element, does not effect layout outside it’s immediate context)
 
 ```scss
 .inputElement {
-  border: 1px solid var(--color-input-border);
-  padding: var(--size-input-padding);
+  border: 1px solid var(--auro-color-ui-default-on-light);
+  padding: var(--auro-size-lg);
 }
 ```
 
@@ -115,13 +120,13 @@ Naming convention: use camel casing
 
 ## Component
 
-A [thing - common noun] made up of Elements that can complete a task
+A [thing - common noun] made up of Primitive Components that can complete a task
 
 (is responsible for the shape of the component, does not effect layout outside it’s immediate context)
 
 ```scss
 .FormGroup {
-  padding: var(--size-form-padding);
+  padding: var(--auro-size-lg);
 }
 ```
 
@@ -135,7 +140,7 @@ An Element's shape within the context of a Component
 
 ```scss
 .FormGroup-inputElement {
-  margin: 0 20px
+  margin: 0 var(--auro-size-md)
 }
 ```
 
@@ -157,7 +162,7 @@ A [thing - common noun] made up of Components, is functionality self-contained, 
 
 Naming convention: use pascal casing prefixed with the `obj_` string
 
-## Object components
+## Object component(s)
 
 A Component's shape within the context of a Object
 
@@ -167,31 +172,11 @@ A Component's shape within the context of a Object
 
 Naming convention: use pascal casing prefixed with the `obj_` string and single hyphen `-` between Object and Component
 
-## Experience
-
-The outer most visual aspect of the view that manages the shape of content within the page (between the header and footer)
-
-```scss
-.exp_HomePage { ... }
-```
-
-Naming convention: use pascal casing prefixed with the `exp_` string
-
-## Experience objects
-
-An Object's shape within the context of a Experience
-
-```scss
-.exp_Homepage-obj_FlightSummary { ... }
-```
-
-Naming convention: use pascal casing prefixed with the `exp_` string and single underscore `_` between Experience and Object
-
-## Element/Component/Object modifiers
+## Modifiers
 
 An [alternate descriptor - adjective] that alters the appearance of an element, component or object.
 
-Bind modifiers directly to the element, component or object. DO NOT use modifiers with combination selectors.
+Bind modifiers directly to the primitive, component or object. DO NOT use modifiers with combination selectors.
 
 #### DO
 
@@ -213,7 +198,7 @@ Bind modifiers directly to the element, component or object. DO NOT use modifier
 
 Naming convention: use a double-dash `--` between the selector name and the modifier suffix
 
-## Element/Component/Object state
+## State
 
 An [alternate descriptor - verb] that alters the state appearance of an element, component or object.
 
