@@ -105,7 +105,7 @@ Naming convention: use camel casing prefixed with the `util_` string
 
 ## Primitive Component / Element
 
-Any part of a designed/functional [thing - common noun] that cannot independently complete a task
+Any part of a designed/functional (thing - common noun) that cannot independently complete a task
 
 (is responsible for the shape of any UI element, does not effect layout outside it’s immediate context)
 
@@ -120,7 +120,7 @@ Naming convention: use camel casing
 
 ## Component
 
-A [thing - common noun] made up of Primitive Components that can complete a task
+A (thing - common noun) made up of Primitive Components that can complete a task
 
 (is responsible for the shape of the component, does not effect layout outside it’s immediate context)
 
@@ -148,7 +148,7 @@ Naming convention: use respective conventions with single hyphen `-` between Com
 
 ## Object
 
-A [thing - common noun] made up of Components, is functionality self-contained, and maintains usability on its own in any context
+A (thing - common noun) made up of Components, is functionality self-contained, and maintains usability on its own in any context
 
 (is responsible for the shape of the object, does not effect layout outside it’s immediate context)
 
