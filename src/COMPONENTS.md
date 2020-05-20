@@ -44,7 +44,7 @@ For a up-to-the-minute view, see our [project board](https://github.com/orgs/Ala
 |Component|Status|Planned work release|
 |---|---|---|
 |[Basic data table #18](https://github.com/AlaskaAirlines/auro_docs/issues/18)|Dev|Sprint 11|
-|[Alerts #17](https://github.com/AlaskaAirlines/auro_docs/issues/17)|Discovery|Sprint 12|
+|[Alerts #17](https://github.com/AlaskaAirlines/auro_docs/issues/17)|Design|Sprint 12|
 
 ### Currently Proposed components
 
