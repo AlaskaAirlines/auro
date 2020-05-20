@@ -1,4 +1,4 @@
-# Auro Design System and Web Components
+# Web Component Status
 
 __IMPORTANT:__ The Auro Web Components are a work in progress and subject to major changes.
 
