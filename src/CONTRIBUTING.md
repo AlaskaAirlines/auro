@@ -89,7 +89,7 @@ Imperative mood simply means _“spoken or written as if giving a command or ins
 
 A properly formed Git commit subject line should always be able to complete the following sentence:
 
-_"If applied, this commit will [your subject line here]."_
+_"If applied, this commit will (your subject line here)."_
 
 For example:
 
@@ -113,8 +113,6 @@ $ fix: address issue #57 in regards to color output
 ### Push branch and submit pull request
 
 One you have committed new work to your feature branch, be sure to push your updates to the Github repository. Depending on your IDE or CLI configuration this may be a manual or automatic step.
-
-To submit a new pull request, please go to [https://github.com/AlaskaAirlines](https://github.com/AlaskaAirlines) to find your project and submit the Pull Request.
 
 On the pull request page, the new pull request should be `[your-new-branch] into [master]`
 
