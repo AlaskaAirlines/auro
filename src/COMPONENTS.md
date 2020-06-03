@@ -44,13 +44,14 @@ For a up-to-the-minute view, see our [project board](https://github.com/orgs/Ala
 
 |Component|Status|Planned work release|
 |---|---|---|
-|[auro-hyperlink #27](https://github.com/AlaskaAirlines/ods-hyperlink/issues/27)|Dev|Sprint 12|
-|[auro-checkbox #26](https://github.com/AlaskaAirlines/ods-inputoptions/issues/26)|Dev|Sprint 12
-|[auro-radio #24](https://github.com/AlaskaAirlines/ods-inputoptions/issues/24)|Dev|Sprint 12
-|[auro-alert #17](https://github.com/AlaskaAirlines/auro_docs/issues/17)|Dev|Sprint 13|
-|[Menu #12](https://github.com/AlaskaAirlines/auro_docs/issues/12)|Discovery| TBD|
-|[Modal / dialog #11](https://github.com/AlaskaAirlines/auro_docs/issues/11)|Discovery| TBD|
-
+|[auro-hyperlink #27](https://github.com/AlaskaAirlines/ods-hyperlink/issues/27)|dev|Sprint 12|
+|[auro-checkbox #26](https://github.com/AlaskaAirlines/ods-inputoptions/issues/26)|dev|Sprint 12
+|[auro-radio #24](https://github.com/AlaskaAirlines/ods-inputoptions/issues/24)|dev|Sprint 12
+|[ods-inputtext #18](https://github.com/AlaskaAirlines/ods-inputtext/issues/18)|dev|Sprint 12|
+|[auro-alert #87](https://github.com/AlaskaAirlines/auro_docs/issues/87)|dev|Sprint 13|
+|[Menu #12](https://github.com/AlaskaAirlines/auro_docs/issues/12)|discovery| TBD|
+|[Modal / dialog #11](https://github.com/AlaskaAirlines/auro_docs/issues/11)|discovery| TBD|
+|[Tab button, tab strip, tabs #13](https://github.com/AlaskaAirlines/auro_docs/issues/13)|discovery |TBD|
 
 ### Currently Proposed components
 
@@ -66,7 +67,6 @@ The following is a list of all proposed web components currently proposed for di
 |[Drawer #15](https://github.com/AlaskaAirlines/auro_docs/issues/15)|Discovery|TBD|
 |[Linear-progress bar #23](https://github.com/AlaskaAirlines/auro_docs/issues/23)|Discovery|TBD|
 |[Receipt #53](https://github.com/AlaskaAirlines/auro_docs/issues/53)|Discovery|TBD|
-|[Tab button, tab strip, tabs #13](https://github.com/AlaskaAirlines/auro_docs/issues/13)|Design|TBD|
 |[Toast #21](https://github.com/AlaskaAirlines/auro_docs/issues/21)|Discovery|TBD|
 |[Toggle / switch #14](https://github.com/AlaskaAirlines/auro_docs/issues/14)|Discovery|TBD|
 |[Tooltop / popover #22](https://github.com/AlaskaAirlines/auro_docs/issues/22)|Discovery|TBD|
