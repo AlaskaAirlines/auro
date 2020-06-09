@@ -1,22 +1,12 @@
 [
   {
     "name": "duplicate",
-    "color": "fff0cd",
+    "color": "cde6ff",
     "description": "This Issue or Pull Request already exists"
   },
   {
-    "name": "help wanted",
-    "color": "8439ef",
-    "description": "Extra attention is needed, this user requires assistance to complete the work"
-  },
-  {
-    "name": "released",
-    "color": "A9A9A9",
-    "description": "Completed work has been released"
-  },
-  {
     "name": "good first issue",
-    "color": "00cff0",
+    "color": "6bb7fb",
     "description": "Good for newcomers",
     "aliases": [
       "beginner-friendly",
@@ -29,60 +19,46 @@
     ]
   },
   {
+    "name": "help wanted",
+    "color": "2492eb",
+    "description": "Extra attention is needed, this user requires assistance to complete the work"
+  },
+  {
+    "name": "Epic",
+    "color": "222222",
+    "description": "A large body of work that can be broken down into a number of smaller issues"
+  },
+
+
+
+  {
     "name": "Priority: Critical",
-    "color": "df0b37",
+    "color": "b82b47",
     "description": "Issues that need immediate attention"
   },
   {
     "name": "Priority: High",
-    "color": "de750c",
+    "color": "f65b7b",
     "description": "Issues that need attention soon"
   },
   {
     "name": "Priority: Low",
-    "color": "c0e585",
+    "color": "ff94a7",
     "description": "Issues that need not be forgotten"
   },
+
+
+
   {
-    "name": "Status: Abandoned",
-    "color": "fff0cd",
-    "description": "The issue or Pull Request is wontfix",
-    "aliases": [
-      "wontfix",
-      "invalid"
-    ]
+    "name": "released",
+    "color": "A9A9A9",
+    "description": "Completed work has been released"
   },
-  {
-    "name": "Status: Approved for work",
-    "color": "32CD32",
-    "description": "Proposal has been approved for development (issues only)"
-  },
-  {
-    "name": "Status: Blocked",
-    "color": "df0b37",
-    "description": "Progress on the issue is Blocked, immediate attention is required",
-    "aliases": [
-      "blocked"
-    ]
-  },
-  {
-    "name": "Status: In discovery",
-    "color": "8439ef",
-    "description": "New work that is still in a discovery phase"
-  },
-  {
-    "name": "Status: Design in progress",
-    "color": "c0e585",
-    "description": "Design work is in progress"
-  },
-  {
-    "name": "Status: Work In Progress",
-    "description": "Issue or Pull Request work is in Progress",
-    "color": "fff0cd"
-  },
+
+
   {
     "name": "Status: Proposal",
-    "color": "0074c8",
+    "color": "e2ffcd",
     "description": "This is a proposed question or solution, the user is requesting feedback",
     "aliases": [
       "idea",
@@ -93,8 +69,45 @@
     ]
   },
   {
+    "name": "Status: Approved for work",
+    "color": "d0fba6",
+    "description": "Proposal has been approved for development (issues only)"
+  },
+  {
+    "name": "Status: Work In Progress",
+    "description": "Issue or Pull Request work is in Progress",
+    "color": "c0e585"
+  },
+  {
+    "name": "Status: Review Needed",
+    "color": "91be62",
+    "description": "Work is completed, user is requesting feeback"
+  },
+  {
+    "name": "Status: Complete / Ready to Merge",
+    "color": "5e8741",
+    "description": "Owner has completed work and considers it ready to be merged"
+  },
+
+
+  {
+    "name": "Status: Blocked",
+    "color": "df0b37",
+    "description": "Progress on the issue is Blocked, immediate attention is required",
+    "aliases": [
+      "blocked"
+    ]
+  },
+
+
+  {
+    "name": "Status: Discovery",
+    "color": "c1daf0",
+    "description": "New work that is still in a discovery phase"
+  },
+  {
     "name": "Status: PR Welcome",
-    "color": "8439ef",
+    "color": "569ed7",
     "description": "Assigned to issues, requesting general public support",
     "aliases": [
       "Patch Welcome",
@@ -102,24 +115,16 @@
     ]
   },
   {
-    "name": "Status: Review Needed",
-    "color": "0074c8",
-    "description": "Work is completed, user is requesting feeback"
-  },
-  {
-    "name": "Status: Complete / Ready to Merge",
-    "color": "228B22",
-    "description": "Owner has completed work and considers it ready to be merged"
-  },
-  {
-    "name": "Type: Breaking Change",
-    "color": "de750c",
-    "description": "Includes breaking changes, will require MAJOR version release",
+    "name": "Status: Abandoned",
+    "color": "156fad",
+    "description": "The issue or Pull Request is wontfix",
     "aliases": [
-      "breaking",
-      "breaking-change"
+      "wontfix",
+      "invalid"
     ]
   },
+
+
   {
     "name": "Type: Bug",
     "color": "df0b37",
@@ -128,34 +133,36 @@
       "bug"
     ]
   },
+
+
   {
-    "name": "Type: Content/data",
-    "color": "0074c8",
-    "description": "Adding or editing new content or data to the repo",
+    "name": "Type: Breaking Change",
+    "color": "b88624",
+    "description": "Includes breaking changes, will require MAJOR version release",
     "aliases": [
-      "enhancement"
-    ]
-  },
-  {
-    "name": "Type: Documentation",
-    "color": "0074c8",
-    "description": "Documentation only changes",
-    "aliases": [
-      "documents",
-      "document"
+      "breaking",
+      "breaking-change"
     ]
   },
   {
     "name": "Type: Feature",
-    "color": "0074c8",
+    "color": "e5ad07",
     "description": "New Feature",
     "aliases": [
       "enhancement"
     ]
   },
   {
+    "name": "Type: Content/data",
+    "color": "ffd200",
+    "description": "Adding or editing new content or data to the repo",
+    "aliases": [
+      "enhancement"
+    ]
+  },
+  {
     "name": "Type: Refactoring",
-    "color": "fff0cd",
+    "color": "ffdb67",
     "description": "A code change that neither fixes a bug nor adds a feature",
     "aliases": [
       "refactor"
@@ -170,9 +177,31 @@
       "testing"
     ]
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "Type: Documentation",
+    "color": "f26135",
+    "description": "Documentation only changes",
+    "aliases": [
+      "documents",
+      "document"
+    ]
+  },
   {
     "name": "Type: Maintenance",
-    "color": "fff0cd",
+    "color": "b83302",
     "description": "Repository Maintenance",
     "aliases": [
       "greenkeeper",
@@ -181,7 +210,7 @@
   },
   {
     "name": "Type: CI",
-    "color": "fff0cd",
+    "color": "b83302",
     "description": "Changes to CI configuration files and scripts",
     "aliases": [
       "travis",
@@ -191,7 +220,7 @@
   },
   {
     "name": "Type: Question",
-    "color": "8439ef",
+    "color": "b83302",
     "description": "Further information is requested",
     "aliases": [
       "question"
@@ -199,7 +228,7 @@
   },
   {
     "name": "Type: Dependencies",
-    "color": "fff0cd",
+    "color": "b83302",
     "description": "Pull requests that update a dependency file",
     "aliases": [
       "dependencies"
@@ -207,27 +236,33 @@
   },
   {
     "name": "Type: High Risk",
-    "color": "FF0000",
+    "color": "b83302",
     "description": "Work is high risk, pay close attention to updates and tests"
   },
+
+
+
+
+
+
   {
     "name": "Size: X-Large",
-    "color": "FF3300",
+    "color": "631db8",
     "description": "Woah! Really? This is too large to deliver in a single PR and is super risky!"
   },
   {
     "name": "Size: Large",
-    "color": "FFCC00",
+    "color": "8439ef",
     "description": "This is a sizable load of work to deliver and tough to break up. Risk is not equated to volume."
   },
   {
     "name": "Size: Medium",
-    "color": "FFFF00",
+    "color": "9e73ea",
     "description": "Delivery requires attention, medium risk on delivery"
   },
   {
     "name": "Size: Small",
-    "color": "00FF00",
+    "color": "bcaae6",
     "description": "Easily delivered work, low risk, low effort"
   }
 ]
