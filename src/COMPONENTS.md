@@ -2,10 +2,6 @@
 
 __IMPORTANT:__ The Auro Web Components are a work in progress and releases are subject to major changes.
 
-## Proposes something
-
-Are you working on something that you feel should be a part of the Auro Design System? Then feel free to [propose new work](https://github.com/AlaskaAirlines/auro_docs/issues/new?assignees=blackfalcon&labels=Status%3A+In+discovery&template=new_wc.md&title=) and the Auro team will be sure you reach out to you as soon as possible.
-
 ## Auro Design System tools in active use and development
 
 Auro Web Components are a collection of Web Components maintained by Alaska Airlines that implement the Auro Design System.
@@ -34,6 +30,10 @@ Auro Web Components are a collection of Web Components maintained by Alaska Airl
 | [ods-inputoptions](https://github.com/AlaskaAirlines/ods-inputoptions) | ![Build Status](https://img.shields.io/travis/AlaskaAirlines/ods-inputoptions.svg?branch=master&style=for-the-badge)| ![See it on NPM!](https://img.shields.io/npm/v/@alaskaairux/ods-inputoptions?style=for-the-badge&color=orange) | [![issues](https://img.shields.io/github/issues-raw/AlaskaAirlines/ods-inputoptions?style=for-the-badge)](https://github.com/AlaskaAirlines/ods-inputoptions/issues) | [notes](https://github.com/AlaskaAirlines/ods-inputoptions/releases/latest)
 | [ods-inputtext](https://github.com/AlaskaAirlines/ods-inputtext) | ![Build Status](https://img.shields.io/travis/AlaskaAirlines/ods-inputtext.svg?branch=master&style=for-the-badge)| ![See it on NPM!](https://img.shields.io/npm/v/@alaskaairux/ods-inputtext?style=for-the-badge&color=orange)  | [![issues](https://img.shields.io/github/issues-raw/AlaskaAirlines/ods-inputtext?style=for-the-badge)](https://github.com/AlaskaAirlines/ods-inputtext/issues) | [notes](https://github.com/AlaskaAirlines/ods-inputtext/releases/latest)
 
+## Propose something
+
+Are you working on something that you feel should be a part of the Auro Design System? Then feel free to [propose new work](https://github.com/AlaskaAirlines/auro_docs/issues/new?assignees=blackfalcon&labels=Status%3A+In+discovery&template=new_wc.md&title=) and the Auro team will be sure you reach out to you as soon as possible.
+
 ## Planned work
 
 The following lists are of tools and components currently queued up on the Auro roadmap.
@@ -44,11 +44,12 @@ For a up-to-the-minute view, see our [project board](https://github.com/orgs/Ala
 
 |Component|Status|Planned work release|
 |---|---|---|
+|[Button to support 'disabled' state #57](https://github.com/AlaskaAirlines/ods-button/issues/57)|dev|Sprint 12|
 |[auro-hyperlink #27](https://github.com/AlaskaAirlines/ods-hyperlink/issues/27)|dev|Sprint 12|
-|[auro-checkbox #26](https://github.com/AlaskaAirlines/ods-inputoptions/issues/26)|dev|Sprint 12
-|[auro-radio #24](https://github.com/AlaskaAirlines/ods-inputoptions/issues/24)|dev|Sprint 12
-|[ods-inputtext #18](https://github.com/AlaskaAirlines/ods-inputtext/issues/18)|dev|Sprint 12|
-|[auro-alert #87](https://github.com/AlaskaAirlines/auro_docs/issues/87)|dev|Sprint 13|
+|[auro-checkbox #26](https://github.com/AlaskaAirlines/ods-inputoptions/issues/26)|dev|Sprint 13
+|[auro-radio #24](https://github.com/AlaskaAirlines/ods-inputoptions/issues/24)|dev|Sprint 13
+|[ods-inputtext #18](https://github.com/AlaskaAirlines/ods-inputtext/issues/18)|dev|TBD|
+|[auro-alert #87](https://github.com/AlaskaAirlines/auro_docs/issues/87)|dev|TBD|
 |[Menu #12](https://github.com/AlaskaAirlines/auro_docs/issues/12)|discovery| TBD|
 |[Modal / dialog #11](https://github.com/AlaskaAirlines/auro_docs/issues/11)|discovery| TBD|
 |[Tab button, tab strip, tabs #13](https://github.com/AlaskaAirlines/auro_docs/issues/13)|discovery |TBD|
