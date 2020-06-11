@@ -43,7 +43,7 @@ All commit messages must be prefixed with a specific type so that the semver rel
 
 #### MAJOR
 
-For a MAJOR release, you MUST follow this template. The use of `perf:` and `BREAKING CHANGE:` are needed in order to push a major release.
+For a MAJOR release, you MUST follow this template. The use `BREAKING CHANGE:` in conjunction with either `perf` or `feature` is required in order to push a major release.
 
 ```
 perf(pencil): remove graphiteWidth option
@@ -99,7 +99,7 @@ For example:
 Example messages when using Conventional Commits:
 
 ```
-$ build: update to Gulp 4.x
+$ build: update to build step to include postCSS
 
 $ docs: address issue #14, typo in install instructions
 
