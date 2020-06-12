@@ -24,9 +24,14 @@
     "description": "Extra attention is needed, this user requires assistance to complete the work"
   },
   {
-    "name": "Epic",
+    "name": "Epic: Project Version Zero",
     "color": "222222",
-    "description": "A large body of work that can be broken down into a number of smaller issues"
+    "description": "Identifier of project epic issue."
+  },
+  {
+    "name": "Project: Version Zero",
+    "color": "222222",
+    "description": "Issues related to the epic Project Zero"
   },
 
 

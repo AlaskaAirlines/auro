@@ -44,8 +44,8 @@ For a up-to-the-minute view, see our [project board](https://github.com/orgs/Ala
 
 |Component|Status|Planned work release|
 |---|---|---|
-|[Button to support 'disabled' state #57](https://github.com/AlaskaAirlines/ods-button/issues/57)|dev|Sprint 12|
-|[auro-hyperlink #27](https://github.com/AlaskaAirlines/ods-hyperlink/issues/27)|dev|Sprint 12|
+|[Button to support 'disabled' state #57](https://github.com/AlaskaAirlines/ods-button/issues/57)|closed|[released](https://github.com/AlaskaAirlines/ods-button/releases/tag/v4.6.0)|
+|[auro-hyperlink CTA #27](https://github.com/AlaskaAirlines/ods-hyperlink/issues/27)|dev|Sprint 12|
 |[auro-checkbox #26](https://github.com/AlaskaAirlines/ods-inputoptions/issues/26)|dev|Sprint 13
 |[auro-radio #24](https://github.com/AlaskaAirlines/ods-inputoptions/issues/24)|dev|Sprint 13
 |[ods-inputtext #18](https://github.com/AlaskaAirlines/ods-inputtext/issues/18)|dev|TBD|
