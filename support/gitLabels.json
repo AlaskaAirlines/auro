@@ -34,6 +34,28 @@
     "description": "Issues related to the epic Project Zero"
   },
 
+  {
+    "name": "Epic: Project User Research",
+    "color": "222222",
+    "description": "Identifier of project epic issue."
+  },
+  {
+    "name": "Project: User Research",
+    "color": "222222",
+    "description": "Issues related to the epic User Resaearch"
+  },
+
+  {
+    "name": "Epic: Doc Site Strategy",
+    "color": "222222",
+    "description": "Identifier of project epic issue."
+  },
+  {
+    "name": "Project: Doc Site Strategy",
+    "color": "222222",
+    "description": "Issues related to the epic Doc Site Strategy"
+  },
+
 
 
   {
@@ -153,6 +175,14 @@
     "name": "Type: Feature",
     "color": "e5ad07",
     "description": "New Feature",
+    "aliases": [
+      "enhancement"
+    ]
+  },
+  {
+    "name": "Type: Design",
+    "color": "e5ad07",
+    "description": "New Design",
     "aliases": [
       "enhancement"
     ]
