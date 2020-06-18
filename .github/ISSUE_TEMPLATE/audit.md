@@ -2,8 +2,6 @@
 name: Component Audit
 about: Crate a new component audit ticket for tracking
 title: 'Component Name Here ...'
-projects: 'Auro'
-
 ---
 
 # Component Audit
@@ -17,7 +15,7 @@ This issue is to remain open until all areas of the specification and all assets
 
 As new issues are created that are children of this Audit item, please be sure to reference this Audit item in that issue.
 
-As assets are delivered, it is required that the labels associated to this Audit issue are updated to reflect status. Labels are as follows:
+As assets are delivered, it is required that the labels associated with this Audit issue are updated to reflect status. Labels are as follows:
 
 - Artwork
 - Code
