@@ -35,12 +35,12 @@
   },
 
   {
-    "name": "Epic: Project User Research",
+    "name": "Epic: Auro User Definition",
     "color": "222222",
     "description": "Identifier of project epic issue."
   },
   {
-    "name": "Project: User Research",
+    "name": "Project: Auro User Definition",
     "color": "222222",
     "description": "Issues related to the epic User Resaearch"
   },
@@ -299,5 +299,135 @@
     "name": "Size: Small",
     "color": "bcaae6",
     "description": "Easily delivered work, low risk, low effort"
+  },
+
+
+
+  {
+    "name": "Audit: Actions",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Informational",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Structural",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Inputs",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Navigation",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Contextual",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Content",
+    "color": "ffffff",
+    "description": ""
+  },
+
+
+
+
+  {
+    "name": "Artwork: ODS Complete",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "UI Kit: ODS Complete",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "Code: ODS Complete",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "Docs: ODS Complete",
+    "color": "91be62",
+    "description": ""
+  },
+
+
+
+  {
+    "name": "Artwork: ADS Complete",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "UI Kit: ADS Complete",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "Code: ADS Complete",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "Docs: ADS Complete",
+    "color": "91be62",
+    "description": ""
+  },
+
+
+
+  {
+    "name": "Artwork: In Progress",
+    "color": "ffd200",
+    "description": ""
+  },
+  {
+    "name": "UI Kit: In Progress",
+    "color": "ffd200",
+    "description": ""
+  },
+  {
+    "name": "Code: In Progress",
+    "color": "ffd200",
+    "description": ""
+  },
+  {
+    "name": "Docs: In Progress",
+    "color": "ffd200",
+    "description": ""
+  },
+
+
+  {
+    "name": "Artwork: Backlogged",
+    "color": "de3e09",
+    "description": ""
+  },
+  {
+    "name": "UI Kit: Backlogged",
+    "color": "de3e09",
+    "description": ""
+  },
+  {
+    "name": "Code: Backlogged",
+    "color": "de3e09",
+    "description": ""
+  },
+  {
+    "name": "Docs: Backlogged",
+    "color": "de3e09",
+    "description": ""
   }
 ]
