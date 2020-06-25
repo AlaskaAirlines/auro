@@ -33,11 +33,11 @@ Alaska Airlines currently supports the following browsers for the delivery of st
 
 [webcomponents.org](https://www.webcomponents.org/)
 
-† Transpiling from ES6 to ES5 is required for browser support. See [Babel Support doc](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/BABEL_SUPPORT.md) for information about Babel configuration support options.
+† Transpiling from ES6 to ES5 is required for browser support. See [Babel Support doc](https://github.com/AlaskaAirlines/auro/blob/master/src/BABEL_SUPPORT.md) for information about Babel configuration support options.
 
 †† This document only considers Microsoft Edge v79 and up. Legacy Edge versions on edgeHTML still requires full polyfill support.
 
-\* JavaScript polyfills are required in order for these browsers to render Polymer/Lit-element web components. See the [polyfill doc](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/POLYFILL.md) for more information on installment options.
+\* JavaScript polyfills are required in order for these browsers to render Polymer/Lit-element web components. See the [polyfill doc](https://github.com/AlaskaAirlines/auro/blob/master/src/POLYFILL.md) for more information on installment options.
 
 #### Browser support for CSS Custom Properties (variables)
 

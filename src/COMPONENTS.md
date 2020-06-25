@@ -33,6 +33,6 @@ Auro Web Components are a collection of Web Components maintained by Alaska Airl
 
 ## Propose something
 
-Are you working on something that you feel should be a part of the Auro Design System? Then feel free to [propose new work](https://github.com/AlaskaAirlines/auro_docs/issues/new?assignees=blackfalcon&labels=Status%3A+In+discovery&template=new_wc.md&title=) and the Auro team will be sure you reach out to you as soon as possible.
+Are you working on something that you feel should be a part of the Auro Design System? Then feel free to [propose new work](https://github.com/AlaskaAirlines/auro/issues/new?assignees=blackfalcon&labels=Status%3A+In+discovery&template=new_wc.md&title=) and the Auro team will be sure you reach out to you as soon as possible.
 
 See [the full listing](https://auro.alaskaair.com/planned-work) for a real-time view of proposed components.

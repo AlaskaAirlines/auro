@@ -32,7 +32,7 @@ All information regarding Project Setup, Technical Details, Tests and informatio
 * [Labels: how to use them best](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/LABELS.md)
 * [Process criteria](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/PROCESS_CRIT.md)
 * [Project management](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/PROJECTS.md)
-* [Training](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/training/README.md)
+* [Training](https://github.com/AlaskaAirlines/auro/blob/master/src/training/README.md)
 
 #### Deprecated resources
 

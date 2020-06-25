@@ -1,11 +1,11 @@
 {
-  "name": "@alaskaairux/auro-docs",
+  "name": "@alaskaairux/auro",
   "version": "1.2.3",
   "description": "Auro Design System global docs",
   "author": "Product design and research",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlaskaAirlines/auro_docs"
+    "url": "https://github.com/AlaskaAirlines/auro"
   },
   "main": "docs/",
   "license": "Apache-2.0",

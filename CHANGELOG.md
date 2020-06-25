@@ -1,32 +1,32 @@
 # Semantic Release Automated Changelog
 
-## [1.2.3](https://github.com/AlaskaAirlines/auro_docs/compare/v1.2.2...v1.2.3) (2020-03-20)
+## [1.2.3](https://github.com/AlaskaAirlines/auro/compare/v1.2.2...v1.2.3) (2020-03-20)
 
 
 ### Bug Fixes
 
-* [#28](https://github.com/AlaskaAirlines/auro_docs/issues/28) add governance model and dispute docs ([fc9cfcb](https://github.com/AlaskaAirlines/auro_docs/commit/fc9cfcb))
+* [#28](https://github.com/AlaskaAirlines/auro/issues/28) add governance model and dispute docs ([fc9cfcb](https://github.com/AlaskaAirlines/auro/commit/fc9cfcb))
 
-## [1.2.2](https://github.com/AlaskaAirlines/auro_docs/compare/v1.2.1...v1.2.2) (2020-03-19)
-
-
-### Bug Fixes
-
-* grammatical errors ([6a89e7f](https://github.com/AlaskaAirlines/auro_docs/commit/6a89e7f))
-
-## [1.2.1](https://github.com/AlaskaAirlines/auro_docs/compare/v1.2.0...v1.2.1) (2020-03-05)
+## [1.2.2](https://github.com/AlaskaAirlines/auro/compare/v1.2.1...v1.2.2) (2020-03-19)
 
 
 ### Bug Fixes
 
-* update content to issue template ([31ee3fe](https://github.com/AlaskaAirlines/auro_docs/commit/31ee3fe))
+* grammatical errors ([6a89e7f](https://github.com/AlaskaAirlines/auro/commit/6a89e7f))
 
-# [1.2.0](https://github.com/AlaskaAirlines/auro_docs/compare/v1.1.2...v1.2.0) (2020-03-05)
+## [1.2.1](https://github.com/AlaskaAirlines/auro/compare/v1.2.0...v1.2.1) (2020-03-05)
+
+
+### Bug Fixes
+
+* update content to issue template ([31ee3fe](https://github.com/AlaskaAirlines/auro/commit/31ee3fe))
+
+# [1.2.0](https://github.com/AlaskaAirlines/auro/compare/v1.1.2...v1.2.0) (2020-03-05)
 
 
 ### Features
 
-* multiple content edits, add new New WC issue option ([f012676](https://github.com/AlaskaAirlines/auro_docs/commit/f012676)), closes [#8](https://github.com/AlaskaAirlines/auro_docs/issues/8) [#9](https://github.com/AlaskaAirlines/auro_docs/issues/9)
+* multiple content edits, add new New WC issue option ([f012676](https://github.com/AlaskaAirlines/auro/commit/f012676)), closes [#8](https://github.com/AlaskaAirlines/auro/issues/8) [#9](https://github.com/AlaskaAirlines/auro/issues/9)
 
 ## [1.1.2](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/compare/v1.1.1...v1.1.2) (2020-02-20)
 

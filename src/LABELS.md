@@ -2,7 +2,7 @@
 
 Labels associated with **Issues** and **Pull Requests** are an essential part of communicating the status of the work in progress.
 
-Please be sure to review all the [labels per project](https://github.com/AlaskaAirlines/auro_docs/labels). All the repositories per the Auro Design System are kept in identical sync.
+Please be sure to review all the [labels per project](https://github.com/AlaskaAirlines/auro/labels). All the repositories per the Auro Design System are kept in identical sync.
 
 ## When to use labels
 

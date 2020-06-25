@@ -74,7 +74,7 @@ This process includes:
 * Design asset is reviewed by a UI designer to ensure that the asset is compliant with the standards set forth.
 * The code is reviewed by an engineer on the Auro team to ensure that all work is compliant with the standards set forth.
 
-It is also the responsibility of the reviewers to ensure that the new work lives up to the [quality threshold determined by the Auro Design System](https://github.com/AlaskaAirlines/auro_docs/blob/master/src/PROCESS_CRIT.md).
+It is also the responsibility of the reviewers to ensure that the new work lives up to the [quality threshold determined by the Auro Design System](https://github.com/AlaskaAirlines/auro/blob/master/src/PROCESS_CRIT.md).
 
 This part of the process answers the question; **Does the demo pass review**?
 
