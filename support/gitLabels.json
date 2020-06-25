@@ -56,6 +56,12 @@
     "description": "Issues related to the epic Doc Site Strategy"
   },
 
+  {
+    "name": "Status: Epic in progress",
+    "color": "222222",
+    "description": "Epic has issue(s) in progress"
+  },
+
 
 
   {
@@ -343,22 +349,22 @@
 
 
   {
-    "name": "Artwork: ODS Compliant",
+    "name": "Artwork: ODS/V0 Compliant",
     "color": "91be62",
     "description": ""
   },
   {
-    "name": "UI Kit: ODS Compliant",
+    "name": "UI Kit: ODS/V0 Compliant",
     "color": "91be62",
     "description": ""
   },
   {
-    "name": "Code: ODS Compliant",
+    "name": "Code: ODS/V0 Compliant",
     "color": "91be62",
     "description": ""
   },
   {
-    "name": "Docs: ODS Compliant",
+    "name": "Docs: ODS/V0 Compliant",
     "color": "91be62",
     "description": ""
   },
