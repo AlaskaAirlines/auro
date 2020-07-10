@@ -10,13 +10,13 @@
   "main": "docs/",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
+    "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^7.6.0",
-    "@semantic-release/changelog": "^3.0.2",
-    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18",
     "@semantic-release/npm": "^5.1.9",
-    "husky": "^2.4.0",
-    "semantic-release": "^15.13.24"
+    "husky": "^2.7.0",
+    "semantic-release": "^15.14.0"
   },
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0"
