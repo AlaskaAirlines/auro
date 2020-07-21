@@ -79,6 +79,11 @@
     "color": "ff94a7",
     "description": "Issues that need not be forgotten"
   },
+  {
+    "name": "Priority: Audit",
+    "color": "ff94a7",
+    "description": "Priority status specifically for DS Audit use"
+  },
 
 
 
