@@ -95,9 +95,9 @@
 
 
   {
-    "name": "Status: Proposal",
+    "name": "Status: Backlogged",
     "color": "e2ffcd",
-    "description": "This is a proposed question or solution, the user is requesting feedback",
+    "description": "Backlogged item is a proposed question or solution, the user is requesting feedback",
     "aliases": [
       "idea",
       "Idea",
@@ -107,9 +107,9 @@
     ]
   },
   {
-    "name": "Status: Approved for work",
+    "name": "Status: Prioritized for work",
     "color": "d0fba6",
-    "description": "Proposal has been approved for development (issues only)"
+    "description": "Proposal has been prioritized for development (issues only)"
   },
   {
     "name": "Status: Work In Progress",
