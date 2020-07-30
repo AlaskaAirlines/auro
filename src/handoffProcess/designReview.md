@@ -14,7 +14,7 @@ Please be sure to address the following label expectations for story management.
 1. Status. Either `Backlogged`, `Work In Progress` or `Complete / Ready to Merge`
 1. Type. For these stories, please use `Design`
 
-Please see **Managing labels** below for more details regarding the use of Github labels. 
+Please see [Managing labels](https://auro.alaskaair.com/getting-started/handoff/labels) for more details regarding the use of Github labels. 
 
 ## Example 
 
@@ -49,4 +49,4 @@ When the story is actively being worked on, an assignee is responsible for updat
 
 ## Closing the story
 
-Please see CLOSING STORIES below for specific information.
+Please see [Closing stories](https://auro.alaskaair.com/getting-started/handoff/close) for specific information.

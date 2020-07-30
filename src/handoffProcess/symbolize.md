@@ -1,6 +1,6 @@
 # Symbolizing story
 
-The role of the review story ... 
+The role of the symbolizing story is to assign the responsibility of symbolizing the newly designed asset into the Auro UI Kit. The process for doing and approving the work will happen in the Abstract environment, but please ensure that this story is managed appropriately for clear communication as to the status of the work. 
 
 ## Assignees
 
@@ -14,7 +14,7 @@ Please be sure to address the following label expectations for story management.
 1. Status. Either `Backlogged`, `Work In Progress` or `Complete / Ready to Merge`
 1. Type. For these stories, please use `Design`
 
-Please see **Managing labels** below for more details regarding the use of Github labels. 
+Please see [Managing labels](https://auro.alaskaair.com/getting-started/handoff/labels) for more details regarding the use of Github labels. 
 
 ## Example 
 
@@ -49,4 +49,4 @@ When the story is actively being worked on, an assignee is responsible for updat
 
 ## Closing the story
 
-Please see CLOSING STORIES below for specific information. 
+Please see [Closing stories](https://auro.alaskaair.com/getting-started/handoff/close) for specific information.
