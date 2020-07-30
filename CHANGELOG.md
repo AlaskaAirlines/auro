@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [1.3.0](https://github.com/AlaskaAirlines/auro/compare/v1.2.3...v1.3.0) (2020-07-30)
+
+
+### Features
+
+* add new design review handoff process docs ([9745227](https://github.com/AlaskaAirlines/auro/commit/9745227a2ae6470d61c1c43c40bc1b764e258f71))
+
 ## [1.2.3](https://github.com/AlaskaAirlines/auro/compare/v1.2.2...v1.2.3) (2020-03-20)
 
 
