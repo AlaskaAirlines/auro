@@ -1,22 +1,22 @@
 # Development story
 
-The role of the development story is the story assigned to the developer that will use the design spec to create the coded version of the design asset for the design system. 
+The development story is the story assigned to the developer, making use of the design spec in order to create the coded version of the design asset.
 
-This story will have the baseline specification definition as well as a checklist of deliverables. 
+This story will have the baseline specification definition as well as a checklist of deliverables.
 
-## Assignees 
+## Assignees
 
-The primary developer working on this story will be initially assigned. A reviewing developer will be assigned to this story to ensure a quality deliverable. 
+The primary developer working on this story will be initially assigned. A reviewing developer will be assigned to this story to ensure a quality deliverable.
 
-## Labels 
+## Labels
 
-Please be sure to address the following label expectations for story management. 
+Please be sure to address the following label expectations for story management.
 
-1. Project. Please be sure to assign the proper Epic project if applicable
-1. Status. Either `Backlogged`, `Work In Progress` or `Complete / Ready to Merge`
-1. Type. For these stories, please use `Feature`
+1. **Project** Please be sure to assign the proper Epic project if applicable
+1. **Status** Either `Backlogged`, `Work In Progress` or `Complete / Ready to Merge` should be applied at any given time to clearly communicate status.
+1. **Type** For these stories, please use `Design`
 
-Please see [Managing labels](https://auro.alaskaair.com/getting-started/handoff/labels) for more details regarding the use of Github labels. 
+Please see [Managing labels](https://auro.alaskaair.com/getting-started/handoff/labels) for more details regarding the use of Github labels.
 
 ## Example
 
@@ -29,7 +29,7 @@ As a [persona], I want to be able to [intent, not feature(s)], so I can [describ
 
 > List specific steps required to deliver this work.
 
-- [ ] Address all design and UX as proposed in the design comp in relation to using Auro specifications 
+- [ ] Address all design and UX as proposed in the design comp in relation to using Auro specifications
 - [ ] A11y in regards to role and live notifications need to be coded into the final WC
 - [ ] Review demo with the designer as well as the Auro team
 - [ ] All new work to be reviewed by Auro team
@@ -53,13 +53,13 @@ As a [persona], I want to be able to [intent, not feature(s)], so I can [describ
 - [ ] Axe
 - [ ] Keyboard use
 
-#### Performance 
+#### Performance
 
-- [ ] Chrome Lighthhouse report 
+- [ ] Chrome Lighthhouse report
 
 #### Auro component features
 
-- [ ] README doc completed with all relative information 
+- [ ] README doc completed with all relative information
 - [ ] API documentation created
 - [ ] Bundled version tested and documented
 - [ ] Examples and use case info created
@@ -71,19 +71,19 @@ As a [persona], I want to be able to [intent, not feature(s)], so I can [describ
 [link to parent audit if applicable]
 ```
 
-Github's markdown supports a `checkbox` feature where users of the stories can checkoff items as they are completed. 
-
-The REVIEW and SYMBOLIZING stories will have links to their respective child story. 
+Github's markdown supports a `checkbox` feature where users of the stories can checkoff items as they are completed.
 
 ## Expectations
 
-The expectation of this type of story is that assignees will check-off the items in the lists as they are completed. 
+The expectation of this type of story is that the assignee will check-off the items in the lists as they are completed.
 
-When the story is actively being worked on, an assignee is responsible for updating the label to `Status: Work In Progress` and please make sure that the story is in the `Current WIP Release` kanban column. Both these actions can be managed via the controls on the story page itself. 
+When the story is actively being worked on, an assignee is responsible for updating the label to `Status: Work In Progress`. Please make sure that the story is in the `Current WIP Release` kanban column. Both these actions can be managed via the controls on the story page itself.
+
+It is important that these expectations are meet as they are essential to the clear communication of the work status.
 
 ## Handoff for code review
 
-When the primary developer has completed their work, they are to create a PULL REQUEST and invite a senior Auro engineer to the review process. 
+When the primary developer has completed their work, they are to create a [PULL REQUEST](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) and invite a senior Auro engineer to the review process.
 
 ## Closing the story
 
