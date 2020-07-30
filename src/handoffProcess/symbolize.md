@@ -1,6 +1,6 @@
 # Symbolizing story
 
-The role of the symbolizing story is to assign the responsibility of symbolizing the newly designed asset into the Auro UI Kit. The process for doing and approving the work will happen in the Abstract environment, but please ensure that this story is managed appropriately for clear communication of work status.
+The role of the symbolizing story is to assign the responsibility of updating the Auro UI Kit with the new asset symbol and documentation. The process for doing and approving the work will happen in the Abstract environment, but please ensure that this story is managed appropriately for clear communication of work status.
 
 ## Assignees
 

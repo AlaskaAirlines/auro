@@ -4,7 +4,7 @@ Using status labels in Github is an efficient way to clearly communicate the sta
 
 ### Backlogged
 
-The status of backlogged will be added to every story by default as every story is initially backlogged until it is selected for work.
+The status of `backlogged` will be added to every story by default as every story is initially backlogged until it is selected for work.
 
 ### Work in progress
 

@@ -1,12 +1,12 @@
 # Development story
 
-The development story is the story assigned to the developer, making use of the design spec in order to create the coded version of the design asset.
+The development story is assigned to the developer making use of the design spec in order to create the coded version of the design asset.
 
 This story will have the baseline specification definition as well as a checklist of deliverables.
 
 ## Assignees
 
-The primary developer working on this story will be initially assigned. A reviewing developer will be assigned to this story to ensure a quality deliverable.
+The primary developer working on this story will be initially assigned. A reviewing developer will be assigned to the related PULL REQUEST to ensure a quality deliverable.
 
 ## Labels
 
