@@ -1,7 +1,7 @@
 ---
 name: Component Request
 about: Request new Web Compomnent work
-title: ''
+title: 'auro-[prposed name]: requeisted new compomnent'
 labels: 'Status: In discovery'
 assignees: blackfalcon
 
