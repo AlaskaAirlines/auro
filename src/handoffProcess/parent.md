@@ -20,7 +20,7 @@ Please see [Managing labels](https://auro.alaskaair.com/getting-started/handoff/
 
 ## Example
 
-```
+```txt
 # User story
 
 As a [persona], I want to be able to [intent, not feature(s)], so I can [describe benefit].

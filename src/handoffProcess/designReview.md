@@ -20,7 +20,7 @@ Please see [Managing labels](https://auro.alaskaair.com/getting-started/handoff/
 
 ## Example
 
-```
+```txt
 # User story
 
 As a UI designer of Auro, I want to be able to review the work, so I can give feedback and prepare for next steps.

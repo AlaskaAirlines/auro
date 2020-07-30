@@ -18,7 +18,7 @@ Please see [Managing labels](https://auro.alaskaair.com/getting-started/handoff/
 
 ## Example
 
-```
+```txt
 # User story
 
 As a designer, I want to be able to have access to a symbolized version, so I can easily reuse with my project.
