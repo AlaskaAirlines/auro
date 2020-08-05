@@ -34,6 +34,10 @@ All information regarding Project Setup, Technical Details, Tests and informatio
 * [Project management](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/PROJECTS.md)
 * [Training](https://github.com/AlaskaAirlines/auro/blob/master/src/training/README.md)
 
+#### Discovery resources
+
+* [Tealium Web Component Lessons Learned](https://github.com/AlaskaAirlines/auro/blob/master/src/discoveries/TEALIUM_LESSONS_LEARNED.md)
+
 #### Deprecated resources
 
 * [Alternate custom element CSS build](https://github.com/AlaskaAirlines/OrionStatelessComponents__docs/blob/master/src/ALT_BUILD.md)
