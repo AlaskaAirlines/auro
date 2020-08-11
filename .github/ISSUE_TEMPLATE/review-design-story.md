@@ -2,7 +2,7 @@
 name: Review Design Story
 about: Crate a new user story to address the design review process
 title: 'auro-[name]; design [feature] review'
-labels: 'Status: Backlogged', 'Type: Design', 'Project: Version Zero'
+labels: 'Status: Backlogged, Type: Design, Project: Version Zero'
 ---
 
 # User story
