@@ -2,12 +2,12 @@
 name: Parent Design Story
 about: Crate a new user story as the parent manager of child design and dev stories
 title: 'auro-[name]; design [feature]'
-labels: 'Status: Backlogged'
+labels: 'Status: Backlogged', 'Type: Design', 'Project: Version Zero'
 ---
 
 # User story
 
-As a [persona], I want to be able to [intent, not feature(s)], so I can [describe benefit].
+As a designer, I want a standard UI and symbol for this component, so I can easily replicate in my designs.
 
 ## Outline subtasks or tasks
 
