@@ -2,7 +2,7 @@
 name: Parent Design Story
 about: Crate a new user story as the parent manager of child design and dev stories
 title: 'auro-[name]; design [feature]'
-labels: 'Status: Backlogged', 'Type: Design', 'Project: Version Zero'
+labels: 'Status: Backlogged, Type: Design, Project: Version Zero'
 ---
 
 # User story
