@@ -23,9 +23,9 @@ As a designer, I want a standard UI and symbol for this component, so I can easi
 - [ ] Backlogged
 - [ ] Discovery
 - [ ] Design
-- [ ] Review [story](must link to child story)
-- [ ] Production
-- [ ] Symbolizing [story](must link to child story)
+- [ ] [Review](must link to child story)
+- [ ] [Production]
+- [ ] [Symbolizing](must link to child story)
 - [ ] Complete
 
 ## Audit
