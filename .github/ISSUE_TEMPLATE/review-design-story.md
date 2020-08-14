@@ -16,6 +16,7 @@ As a UI designer of Auro, I want to be able to review the work, so I can give fe
 - [ ] review work as presented by the product designer
 - [ ] provide feedback
 - [ ] prepare for next steps of development and symbolize
+- [ ] Add a link to Abstract in story comments
 
 ## Definition of “Done” (exit criteria)
 

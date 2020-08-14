@@ -2,12 +2,12 @@
 name: Development Story
 about: Crate a new user story to address the development process
 title: 'auro-[name]; develop [feature]'
-labels: 'Status: Backlogged'
+labels: 'Status: Backlogged, Type: Feature, Project: Version Zero'
 ---
 
 # User story
 
-As a [persona], I want to be able to [intent, not feature(s)], so I can [describe benefit].
+As a Developer, I want to be able to use a web component, so I can quickly develop my team's feature.
 
 ## Outline subtasks or tasks
 

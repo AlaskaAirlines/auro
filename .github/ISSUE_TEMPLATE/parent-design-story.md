@@ -13,18 +13,19 @@ As a designer, I want a standard UI and symbol for this component, so I can easi
 
 > List specific steps required to deliver this work.
 
-- [ ] ...
-- [ ] ...
+- [ ] Assigned designer to consult with Product and Sr. UI Designer for UI specs
+- [ ] Assigned designer to complete the design process as dictated by the framework
+- [ ] Assigned designer to address steps as outlined below and assist in the development handoff process
 
 ## Definition of “Done” (exit criteria)
 
 > The story is generally “done” when the user can complete the outlined task, but make sure to define what that is.
 
-- [ ] Backlogged
+- [x] Backlogged
 - [ ] Discovery
 - [ ] Design
 - [ ] [Review](must link to child story)
-- [ ] [Production]
+- [ ] [Production](must link to child story)
 - [ ] [Symbolizing](must link to child story)
 - [ ] Complete
 
