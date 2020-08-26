@@ -9,9 +9,12 @@ labels: 'Status: Backlogged, Type: Design, Project: Version Zero'
 
 As a designer, I want a standard UI and symbol for this component, so I can easily replicate in my designs.
 
-## Outline subtasks or tasks
+## Outline tasks
 
 > List specific steps required to deliver this work.
+
+- [ ] Update status labels: remove `backlogged` and add `work in progress
+- [ ] Update kanban status: move from `Backlog` to `Current WIP Release`
 
 - [ ] Assigned designer to consult with Product and Sr. UI Designer for UI specs
 - [ ] Assigned designer to complete the design process as dictated by the framework

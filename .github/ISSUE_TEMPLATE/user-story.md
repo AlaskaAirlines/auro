@@ -10,9 +10,12 @@ assignees: blackfalcon
 
 As a [persona], I want to be able to [intent, not feature(s)], so I can [describe benefit].
 
-## Outline subtasks or tasks
+## Outline tasks
 
 > List specific steps required to deliver this work.
+
+- [ ] Update status labels: remove `backlogged` and add `work in progress
+- [ ] Update kanban status: move from `Backlog` to `Current WIP Release`
 
 - [ ] ...
 - [ ] ...

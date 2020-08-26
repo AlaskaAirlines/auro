@@ -9,9 +9,12 @@ labels: 'Status: Backlogged, Type: Feature, Project: Version Zero'
 
 As a Developer, I want to be able to use a web component, so I can quickly develop my team's feature.
 
-## Outline subtasks or tasks
+## Outline tasks
 
 > List specific steps required to deliver this work.
+
+- [ ] Update status labels: remove `backlogged` and add `work in progress
+- [ ] Update kanban status: move from `Backlog` to `Current WIP Release`
 
 - [ ] Address all design and UX as proposed in the design comp in relation to using Auro specifications
 - [ ] A11y in regards to role and live notifications need to be coded into the final WC

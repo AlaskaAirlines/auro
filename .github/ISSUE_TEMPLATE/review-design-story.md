@@ -9,9 +9,12 @@ labels: 'Status: Backlogged, Type: Design, Project: Version Zero'
 
 As a UI designer of Auro, I want to be able to review the work, so I can give feedback and prepare for next steps.
 
-## Outline subtasks or tasks
+## Outline tasks
 
 > List specific steps required to deliver this work.
+
+- [ ] Update status labels: remove `backlogged` and add `work in progress
+- [ ] Update kanban status: move from `Backlog` to `Current WIP Release`
 
 - [ ] review work as presented by the product designer
 - [ ] provide feedback
