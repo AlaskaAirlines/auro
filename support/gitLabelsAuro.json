@@ -310,5 +310,145 @@
     "name": "Size: Small",
     "color": "bcaae6",
     "description": "Easily delivered work, low risk, low effort"
+  },
+
+
+
+  {
+    "name": "Audit: Actions",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Informational",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Structural",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Inputs",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Navigation",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Contextual",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Content",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Patterns",
+    "color": "ffffff",
+    "description": ""
+  },
+  {
+    "name": "Audit: Content Layouts",
+    "color": "ffffff",
+    "description": ""
+  },
+
+
+
+
+  {
+    "name": "Artwork: ODS/V0 Compliant",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "UI Kit: ODS/V0 Compliant",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "Code: ODS/V0 Compliant",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "Docs: ODS/V0 Compliant",
+    "color": "91be62",
+    "description": ""
+  },
+
+
+
+  {
+    "name": "Artwork: ADS Compliant",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "UI Kit: ADS Compliant",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "Code: ADS Compliant",
+    "color": "91be62",
+    "description": ""
+  },
+  {
+    "name": "Docs: ADS Compliant",
+    "color": "91be62",
+    "description": ""
+  },
+
+
+
+  {
+    "name": "Artwork: In Progress",
+    "color": "ffd200",
+    "description": ""
+  },
+  {
+    "name": "UI Kit: In Progress",
+    "color": "ffd200",
+    "description": ""
+  },
+  {
+    "name": "Code: In Progress",
+    "color": "ffd200",
+    "description": ""
+  },
+  {
+    "name": "Docs: In Progress",
+    "color": "ffd200",
+    "description": ""
+  },
+
+
+  {
+    "name": "Artwork: Backlogged",
+    "color": "de3e09",
+    "description": ""
+  },
+  {
+    "name": "UI Kit: Backlogged",
+    "color": "de3e09",
+    "description": ""
+  },
+  {
+    "name": "Code: Backlogged",
+    "color": "de3e09",
+    "description": ""
+  },
+  {
+    "name": "Docs: Backlogged",
+    "color": "de3e09",
+    "description": ""
   }
 ]
