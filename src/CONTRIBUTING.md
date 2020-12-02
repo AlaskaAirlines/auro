@@ -32,7 +32,7 @@ The name of the feature branch should be descriptive as to the nature of the wor
 
 ### Conventional Commits
 
-This project utilizes [Conventional Commits](https://www.conventionalcommits.org/) to auto-generate release verions, based on the [Angular Commit Message Guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
+This project utilizes [Conventional Commits](https://www.conventionalcommits.org/) to auto-generate release versions, based on the [Angular Commit Message Guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
 
 
 ```
@@ -43,7 +43,7 @@ All commit messages must be prefixed with a specific type so that the semver rel
 
 #### MAJOR
 
-For a MAJOR release, you MUST follow this template. The use `BREAKING CHANGE:` in conjunction with either `perf` or `feature` is required in order to push a major release.
+For a MAJOR release, you MUST follow this template. The use `BREAKING CHANGE:` in conjunction with any other commit type is required in order to push a major release.
 
 ```
 perf(pencil): remove graphiteWidth option
@@ -71,8 +71,8 @@ fix(pencil): stop graphite breaking when too much pressure applied
 | docs | Documentation only changes |
 | feat | A new feature (this correlates with `MINOR` in semantic versioning) |
 | fix | A bug fix (this correlates with `PATCH` in semantic versioning) |
-| perf | A code change that improves performance (correlating with `MAJOR` in semantic versioning) |
-| BREAKING CHANGE | A code change that is not backwards compatable (correlating with `MAJOR` in semantic versioning) |
+| perf | A code change that improves performance |
+| BREAKING CHANGE | A code change that is not backwards compatible (correlating with `MAJOR` in semantic versioning) |
 | refactor | A code change that neither fixes a bug nor adds a feature |
 | style | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) |
 | test | Adding missing tests or correcting existing tests  |
