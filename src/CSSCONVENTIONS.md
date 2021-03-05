@@ -158,6 +158,7 @@ In this example, the attribute of `thin` placed in the custom element DOM would 
     margin-bottom: 0;
   }
 }
+```
 
 ## Component Element
 
