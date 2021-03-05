@@ -1,15 +1,17 @@
 # CSS Development Conventions
 
-The implementation of Orion Web Code Style Sheets uses a naming convention model that will be strictly adhered to throughout this library and compliance is expected for any contributed updates.
+The implementation of Auro CSS uses a naming convention model that will be strictly adhered to throughout this library and compliance is expected for any contributed updates.
 
 ## Single Responsibility
 
 Selectors are to follow a rule of **Single Responsibility**, this is to ensure that CSS selectors are not managing overlapping UI responsibilities. This is not to be confused with **functional css** or **OOCSS** writing styles. The goal of single responsibility in this context is to ensure that the focus of the selector is maintaining scope of the task it is performing. Any code that uses selector tree dependency/specificity techniques will be considered non-complaint.
 
-A term I like to use is a **Pure Selector**. Pure Selectors should **NEVER** have a dependency on a parent selector, nor should it have any side-effects when used as a descendant selector. Much in the same way pure functions exist in other languages, the desire is the same.
+A term I like to use is a **Pure Selector**. Pure Selectors should **NEVER** have a dependency on a parent selector, nor should it have any side-effects when used as a descendant selector. Much in the same way pure functions exist in other languages, the desire is the same*.
 
 1. When used, the output/result should always be the same
 1. Produces no side-effects
+
+*Exception to this rule is in conjunction with the `:host()` selector.
 
 ### Meets compliance standards
 
@@ -118,7 +120,7 @@ Any part of a designed/functional (thing - common noun) that cannot independentl
 
 Naming convention: use camel casing
 
-## Component
+## Component in global context
 
 A (thing - common noun) made up of Primitive Components that can complete a task
 
@@ -130,7 +132,32 @@ A (thing - common noun) made up of Primitive Components that can complete a task
 }
 ```
 
-Naming convention: use pascal casing
+## Component in encapsulated custom element context
+
+A (thing - common noun) that can either be a primitive or made up of other Primitive Components that can complete a task
+
+(is responsible for the shape of the component, does not effect layout outside it’s immediate context)
+
+> The `:host()` CSS pseudo-class function selects the shadow host of the shadow DOM containing the CSS it is used inside (so you can select a custom element from inside its shadow DOM) — but only if the selector given as the function's parameter matches the shadow host.
+
+--source [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:host())
+
+```scss
+:host() {
+  padding: var(--auro-size-lg);
+}
+```
+
+This selector is also allowed to break the compliance disallowing child selectors. The `:host` selector is special that is can be used to determine an alternate output of a selector within the scope of the custom element based in a change of the parent. Something that standard global CSS cannot do.
+
+In this example, the attribute of `thin` placed in the custom element DOM would trigger this style change.
+
+```scss
+:host([thin]) {
+  .FormGroup-inputElement {
+    margin-bottom: 0;
+  }
+}
 
 ## Component Element
 
@@ -145,32 +172,6 @@ An Element's shape within the context of a Component
 ```
 
 Naming convention: use respective conventions with single hyphen `-` between Component and Element
-
-## Object
-
-A (thing - common noun) made up of Components, is functionality self-contained, and maintains usability on its own in any context
-
-(is responsible for the shape of the object, does not effect layout outside it’s immediate context)
-
-```scss
-.obj_FlightSummary { ... }
-
-.obj_Header { ... }
-
-.obj_Footer { ... }
-```
-
-Naming convention: use pascal casing prefixed with the `obj_` string
-
-## Object component(s)
-
-A Component's shape within the context of a Object
-
-```scss
-.obj_FlightSummary-FormGroup { ... }
-```
-
-Naming convention: use pascal casing prefixed with the `obj_` string and single hyphen `-` between Object and Component
 
 ## Modifiers
 
