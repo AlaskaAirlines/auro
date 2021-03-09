@@ -172,6 +172,12 @@
     ]
   },
 
+  {
+    "name": "AuroLabs",
+    "color": "000000",
+    "description": "New element development in restricted space"
+  },
+
 
   {
     "name": "Type: Breaking Change",
