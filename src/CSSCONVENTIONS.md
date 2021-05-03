@@ -2,6 +2,8 @@
 
 The implementation of Auro CSS uses a naming convention model that will be strictly adhered to throughout this library and compliance is expected for any contributed updates.
 
+For additional information regarding CSS and custom elements, be sure to see the [CSS styles and custom elements](https://auro.alaskaair.com/webcorestylesheets/custom-element-css) of the site.
+
 ## Single Responsibility
 
 Selectors are to follow a rule of **Single Responsibility**, this is to ensure that CSS selectors are not managing overlapping UI responsibilities. This is not to be confused with **functional css** or **OOCSS** writing styles. The goal of single responsibility in this context is to ensure that the focus of the selector is maintaining scope of the task it is performing. Any code that uses selector tree dependency/specificity techniques will be considered non-complaint.
@@ -138,9 +140,7 @@ A (thing - common noun) that can either be a primitive or made up of other Primi
 
 (is responsible for the shape of the component, does not effect layout outside it’s immediate context)
 
-> The `:host()` CSS pseudo-class function selects the shadow host of the shadow DOM containing the CSS it is used inside (so you can select a custom element from inside its shadow DOM) — but only if the selector given as the function's parameter matches the shadow host.
-
---source [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:host())
+> The `:host` CSS pseudo-class selects the shadow host of the shadow DOM containing the CSS it is used inside — in other words, this allows you to select a custom element from inside its shadow DOM.
 
 ```scss
 :host() {
@@ -148,7 +148,7 @@ A (thing - common noun) that can either be a primitive or made up of other Primi
 }
 ```
 
-This selector is also allowed to break the compliance disallowing child selectors. The `:host` selector is special that is can be used to determine an alternate output of a selector within the scope of the custom element based in a change of the parent. Something that standard global CSS cannot do.
+This selector is also allowed to break the compliance disallowing child selectors. The `:host` selector is special that is can be used to determine an alternate output of a selector within the scope of the custom element based in a change of the parent.
 
 In this example, the attribute of `thin` placed in the custom element DOM would trigger this style change.
 
